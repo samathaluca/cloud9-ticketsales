@@ -64,7 +64,7 @@ font-family: 'Lato', sans-serif;
     text-align:center;
 }
 .mp3-one audio{
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
 .mp3-one h3 {
@@ -96,11 +96,34 @@ font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
+.single-country {
+    background-image:url(images/banner.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    
 .single-country:hover{
     background: #262626;
     color: #fff;
     transition: .6s;
 }
+
+/* band member area */
+
+.band-member img{
+    width:100%
+}
+.band-member {
+    margin-bottom: 30px;
+}
+
+.bandmembers-area .section-padding{
+    padding-bottom: 30px;
+}
+
 
 .contact-area{
     position: relative;
@@ -114,13 +137,94 @@ font-family: 'Lato', sans-serif;
     
 }
 
-.band-roger img{
-    width: 100%
+.footer-area {
+    background:#262626;
+    color: #fff;
+    padding:30px 0;
+    text-align: center;
+    margin-top: 30px;
+    
 }
-.band-roger {
-    margin-bottom: 30px;
+
+/*responsive css*/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.section-header h2{
+    font-size: 35px;
+    font-weight: bold;
+    }
+    .navbar-toggler-icon i.fa{
+    color: #fff;
+    }
+    .about-img{
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .item-text{
+        padding-left: 0;
+    }
+    
+    .mp3-one h3 {
+        font-size: 30px;
+    }
+    
+    
+    .mp3-one p {
+        font-size: 30px;
+    }
 }
-.bandmembers-area .section-padding{
-    padding-bottom: 30px;
+
+@media only screen and (max-width:767px){
+    .section-header h2{
+    font-size: 22px;
+    font-weight: bold;
+    }
+    .navbar-toggler-icon i.fa{
+    color: #fff;
+    }
+    
+    .item-text{
+        margin-top: 30px;
+    }
+    .item-text h4{
+        margin-bottom: 30px;
+        font-size: 20px;
+        
+    }
+    
+    .about-img{
+        padding-right: 0;
+    }
+    
+    .item-text{
+        padding-left: 0;
+    }
+    
+    .mp3-one h3{
+        font-size: 30px;
+    }
+    
+    .band-member h2{
+        font-size: 18px;
+        line-height: 35px;
+        
+    }
+    
+    .band-member a{
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    
+    
+    
 }
-}
+
+    
+    
+    
+
+
+
+
+
