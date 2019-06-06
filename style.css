@@ -103,10 +103,10 @@ text-align: center;
     font-weight: bold;
 }
 .single-country {
-    background-image:url(images/flagsfade.png);
+    background-image:url(images/flagsfadesmall.png);
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    background-size: contain;
     background-position: center center;
     position: relative;
     z-index: 1;
@@ -120,7 +120,7 @@ text-align: center;
 /* band member area */
 
 .band-member img{
-    width:100%
+    width:350px
 }
 .band-member {
     margin-bottom: 30px;
@@ -196,16 +196,14 @@ footer {
     }
     
     .mp3-one  {
-        font-size: 30px;
+        font-size: 10px;
     }
     
     
-    .mp3-one  {
-        font-size: 30px;
-    }
+   
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (min-width:550px) (max-width:767px){
     .section-header {
     font-size: 22px;
     font-weight: bold;
@@ -220,6 +218,7 @@ footer {
     .item-text {
         margin-bottom: 30px;
         font-size: 20px;
+         padding-left: 0;
         
     }
     
@@ -227,13 +226,7 @@ footer {
         padding-right: 0;
     }
     
-    .item-text{
-        padding-left: 0;
-    }
     
-    .mp3-one {
-        font-size: 30px;
-    }
     
     .band-member {
         font-size: 18px;
@@ -245,3 +238,29 @@ footer {
         padding: 5px 15px;
         font-size: 14px;
     }
+    
+    @media screen and (max-width:549px) {
+    .single-countr {
+    background-image:url(images/flagsfadeside.png);}
+    }
+    @media screen and (max-width: 1199px) {
+    .lg-album {
+        background-image: url("image1.jpg");
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .lg-album {
+        background-image: url("image2.jpg");
+    }
+}
+
+@media screen and (max-width: 767px){
+ 
+
+.single-countr {
+    background-image:url(images/flagsfadeside.png);
+    -webkit-background-size: relative;
+    background-size: 50%;
+    
+}

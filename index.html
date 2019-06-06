@@ -19,7 +19,7 @@
 <body>
   <!-- navarea -->
   <div class="nav-area fixed-top">
-    <div class="container">
+    
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
         <a class="navbar-brand" href="#logo.gif"><img src="images/logo.gif" alt="logo image"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
           </ul>
         </div>
       </nav>
-    </div>
+  
   </div>
   <!-- navarea -->
   <!-- jUMBOTRON-->
@@ -120,7 +120,7 @@
       <div id="musicvideo" class="mp3-area section-padding">
         <div class="container">
           <div class="row">
-            <div class="col-xs-1 col-sm-2 col-md-3 col-lg-6 text-center">
+            <div class="col-xs-12 col-md-6 col-lg-6 text-center">
               <div class="mp3-one">
                 <h4>I'm Free</h4>
                 <audio controls>
@@ -129,7 +129,7 @@
             </audio>
               </div>
             </div>
-          <div class="col-xs-12 col-sm-12 col-md-3  col-lg-6 text-center">
+          <div class="col-xs-12 col-md-6  col-lg-6 text-center">
             <div class="mp3-two">
               <h4>I Choose</h4>
               <audio controls>
@@ -138,7 +138,7 @@
           </audio>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-3  col-lg-6 text-center">
+          <div class="col-xs-12 col-md-6  col-lg-6 text-center">
             <div class="mp3-three">
               <h4>Lily</h4>
               <audio controls>
@@ -147,7 +147,7 @@
           </audio>
             </div>
           </div>
-          <div class="col-xs-1 col-sm-2 col-md-3 col-lg-6 text-center">
+          <div class="col-xs-12 col-md-6 col-lg-6 text-center">
             <div class="mp3-four">
               <h4>Tommy</h4>
               <audio controls>
@@ -156,7 +156,7 @@
           </audio>
             </div>
           </div>
-          <div class="col-xs-1 col-sm-2 col-md-3 col-lg-6 text-center">
+          <div class="col-xs-12 col-md-6 col-lg-6 text-center">
             <div class="mp3-five">
               <h4>My Generation</h4>
               <audio controls>
@@ -165,7 +165,7 @@
           </audio>
             </div>
           </div>
-          <div class="col-xs-1 col-sm-2 col-md-3 col-lg-6 text-center">
+          <div class="col-xs-12 col-md-6 col-lg-6 text-center">
             <div class="mp3-six">
               <h4>The Kids Are Alright</h4>
               <audio controls>
@@ -267,7 +267,7 @@
     <div id="bandmembers" class="bandmembers-area section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <div class="col-md-4 col-sm-6 col-xs-12 text-center">
             <div class="band-member">
               <h2>Band Members</h2>
               <p> Original line-up consisted of lead singer Roger Daltrey, guitarist and singer Pete Townshend, bass guitarist John Entwistle and drummer Keith Moon.</p>
@@ -278,6 +278,23 @@
           <div class="col-md-4">
             <div class="band-member">
               <img src="images/bandmembers/roger.jpg" width="330" height="260" alt="roger daltry pic"></div>
+              /* html */
+    <div class="wrapper">
+        <div class="image"></div>
+    </div>
+
+/* css */
+.wrapper {
+    height: 100px;
+    width: 100px;
+}
+
+.image {
+    background-image: url("image.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+}
           </div>
           <div class="col-md-4">
             <div class="band-member">
@@ -321,12 +338,12 @@
               <form>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  <label for="exampleInputPassword1">Fan club or 2020 Tour info of interest?</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="talk to us">
                 </div>
                 <div class="form-group form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
