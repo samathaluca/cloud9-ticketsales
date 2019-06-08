@@ -8,12 +8,8 @@ font-family: 'Lato', sans-serif;
 
 .section-header {
     padding-bottom: 30px;
-}
-/*about section
-.section-header{
-    margin-top: 15px;
     font-weight: bold;
-*/
+}
 
 /*nav area*/    
 .nav-area {
@@ -50,7 +46,7 @@ font-family: 'Lato', sans-serif;
     padding-right: 15px;}
 .item-text{
     padding-left: 15px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
     
@@ -90,6 +86,7 @@ font-family: 'Lato', sans-serif;
 /*BUY TICKETS AREA*/
 .buytickets-area{
 text-align: center;
+font-weight: bold;
 }
 .single-country{
     border: 1px solid #000000;
@@ -114,22 +111,10 @@ text-align: center;
 .single-country:hover{
     background: #262626;
     color: #fff;
-    transition: .6s;
+    transition: .39s;
 }
 
-/* band member area */
 
-.band-member img{
-    width:350px
-}
-.band-member {
-    margin-bottom: 30px;
-}
-
-.bandmembers-area .section-padding{
-    padding-bottom: 30px;
-}
-.footer-area .section-padding {padding-left: 15px;}
 
 .contact-area{
     position: relative;
@@ -142,6 +127,9 @@ text-align: center;
     
     
 }
+
+.footer-area .section-padding {padding-left: 15px;}
+
 footer {
     background-color: #000000;
     padding-bottom: 15px;
@@ -178,89 +166,53 @@ footer {
 
 /*responsive css*/
 
-@media only screen and (min-width:768px) and (max-width:991px){
-.section-header {
-    font-size: 35px;
-    font-weight: bold;
-    }
-    .navbar-toggler-icon {
-    color: #fff;
-    }
-    .about-img{
-        padding-right: 0;
-        margin-bottom: 30px;
-    }
-    
-    .item-text{
-        padding-left: 0;
-    }
-    
-    .mp3-one  {
-        font-size: 10px;
-    }
-    
-    
-   
+/* band member area 
+
+.band-member img{
+    width:455px
 }
 
-@media only screen and (min-width:550px) (max-width:767px){
-    .section-header {
-    font-size: 22px;
-    font-weight: bold;
-    }
-    .navbar-toggler-icon{
-    color: #fff;
-    }
-    
-    .item-text{
-        margin-top: 30px;
-    }
-    .item-text {
-        margin-bottom: 30px;
-        font-size: 20px;
-         padding-left: 0;
-        
-    }
-    
-    .about-img{
-        padding-right: 0;
-    }
-    
-    
-    
-    .band-member {
-        font-size: 18px;
-        line-height: 35px;
-        
-    }
-    
-    .band-member {
-        padding: 5px 15px;
-        font-size: 14px;
-    }
-    
-    @media screen and (max-width:549px) {
-    .single-countr {
-    background-image:url(images/flagsfadeside.png);}
-    }
-    @media screen and (max-width: 1199px) {
-    .lg-album {
-        background-image: url("image1.jpg");
-    }
+.wrapper {
+    height: 100px;
+    width: 100px;
 }
 
-@media screen and (max-width: 900px) {
-    .lg-album {
-        background-image: url("image2.jpg");
-    }
+.imageroger {
+    background-image: url("roger.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.band-member {
+    margin-bottom: 30px;
 }
 
-@media screen and (max-width: 767px){
- 
+.bandmembers-area .section-padding{
+    padding-bottom: 30px;
 
-.single-countr {
-    background-image:url(images/flagsfadeside.png);
-    -webkit-background-size: relative;
-    background-size: 50%;
+}
+*/
+*GALLERY PAGE IMAGES*/
+
+/*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
+.gallery-thumbnail{ 
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border-radius: 5px; /*this code added by me*/
+}
+
+/* creates pleasing illusion of hovered image being raised up from the screen */
+/* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
+.gallery-thumbnail:hover { 
+/*width and height of hover shadow changed by me*/
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
+          box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
+}
+
+.gallery-img img{
+    width: 100%;
+}
     
-}
