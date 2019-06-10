@@ -163,7 +163,61 @@ footer {
     padding-top: 10px;
 }
 
+.bandmembers-area {
+    background-image:url(images/wallpaper.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.mp3-area:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:linear-gradient(180deg,#000,transparent);
+    z-index:-1;
+}
+.bandmembers2-area {
+    background-image:url(images/wallpaper.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}    
+.single-country {
+    background-image:url(images/flagsfadesmall.png);
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}   
+.band-member img{
+    width:455px
+}
 
+.imageroger {
+    background-image: url("roger.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+}
+gallery-image
+
+
+/* css */
+.wrapper {
+    height: 100px;
+    width: 100px;
+}
 /*responsive css*/
 
 /* band member area 
@@ -216,3 +270,4 @@ footer {
     width: 100%;
 }
     
+*/
