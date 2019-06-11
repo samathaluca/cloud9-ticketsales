@@ -7,7 +7,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .section-header {
-    padding-bottom: 30px;
+    padding-bottom: 33px;
     font-weight: bold;
 }
 
@@ -27,7 +27,7 @@ font-family: 'Lato', sans-serif;
     margin: 0;
     font-weight: bold;
     color: #fff;
-    font-size: 1em;
+    font-size: 14px;
      }
      
 .nav-item{
@@ -51,10 +51,10 @@ font-family: 'Lato', sans-serif;
 
     
 /*mp3 area*/
-.musicvideo {
+.musicaudio {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 100px
+    padding: 1000px
 }
 .mp3-area {
     background-image:url(images/wallpaper.jpg);
@@ -83,6 +83,9 @@ font-family: 'Lato', sans-serif;
     font-size: 50px;
 }
 
+.mp3-two{
+    color:#fff;}
+
 /*BUY TICKETS AREA*/
 .buytickets-area{
 text-align: center;
@@ -97,8 +100,7 @@ font-weight: bold;
     margin: 15px 0;
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: bold;
-}
+    font-weight: bold; }
 .single-country {
     background-image:url(images/flagsfadesmall.png);
     background-attachment: fixed;
@@ -107,11 +109,12 @@ font-weight: bold;
     background-position: center center;
     position: relative;
     z-index: 1;
+   
 }   
 .single-country:hover{
     background: #262626;
     color: #fff;
-    transition: .39s;
+     transition transform ease-in-out: 30s;
 }
 
 .bandmembers {
@@ -121,6 +124,21 @@ font-weight: bold;
 .bandmembers img {
     margin: auto;
 }
+.bandmembers-area {
+    background-image:url(images/bandmembers/woodstock.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    color:#D4E6F1;
+}
+
+
+.poster-img {margin:0;
+padding:10px;}
+
 
 
 .contact-area{
@@ -146,7 +164,7 @@ footer {
     font-family: 'Audiowide', cursive; 
 }
 
-.footer-info ul li a {
+.social-media ul li a {
     font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -170,26 +188,12 @@ footer {
     padding-top: 10px;
 }
 
-.bandmembers-area {
-    background-image:url(images/rogerfaded.jpg);
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    z-index: 1;
-}
 
 
-.poster-img {margin:0;
-padding:10px;}
-
-
-.section2 {margin:0;}
 
 @media only screen and (max-width: 600px) {
   .section-padding {
-    background-color: lightblue;
+    background-color: #D7DBDD;
   }
 }
 
