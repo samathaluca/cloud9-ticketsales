@@ -42,6 +42,7 @@ font-family: 'Lato', sans-serif;
     margin-top: 50px;
 }
 
+
 .about-iframe {
     padding-right: 15px;}
 .item-text{
@@ -92,14 +93,16 @@ text-align: center;
 font-weight: bold;
 }
 .single-country{
+    font-family: 'Ubuntu', sans-serif;
     border: 1px solid #000000;
     padding: 30px 20px;
     margin-bottom: 15px;
 }
 .single-country {
+
     margin: 15px 0;
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: bold; }
 .single-country {
     background-image:url(images/flagsfadesmall.png);
@@ -114,30 +117,43 @@ font-weight: bold;
 .single-country:hover{
     background: #262626;
     color: #fff;
-     transition transform ease-in-out: 30s;
+     
 }
 
 .bandmembers {
     padding: 30px;
 }
-
-.bandmembers img {
-    margin: auto;
+.bandimages {
+    padding: 3000px;
 }
+/*.bandmembers img {
+    margin: auto; 
+} */
 .bandmembers-area {
-    background-image:url(images/bandmembers/woodstock.jpg);
+    background-image:url(images/bandmembers/woodstockfade.jpg);
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     position: relative;
     z-index: 1;
-    color:#D4E6F1;
+
+    
 }
 
+.gallery-header
+{
+    color:#000000;
+    font-weight: bold;
+    
+}
 
-.poster-img {margin:0;
-padding:10px;}
+.bandimages { border-radius:8px;
+             
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
 
 
 
@@ -198,14 +214,13 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px) {
-  .nav-area {
-  :none;  
-  }
-}
-@media only screen and (max-width: 600px) {
-  div.example {
-    display: none;
+
+
+@media only screen and (max-width: 500px) {
+  .poster-image1{
+       display: none
+    }
+
   }
 }
 
@@ -220,6 +235,5 @@ footer {
   margin-top: 20px;
     
   }
-}background-attachment: none;
 
-.nav-area fixed-top 
+
