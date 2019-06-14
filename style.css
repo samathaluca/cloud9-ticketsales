@@ -250,7 +250,7 @@ footer {
   }
 }
 @media screen and (max-width: 1200px), {
-  .bandmember-img  { padding:50px;
+  .bandmember-img  { border-image:50px;
   }
 }
 
