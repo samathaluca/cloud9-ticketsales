@@ -60,9 +60,9 @@ font-family: 'Lato', sans-serif;
     padding-top: 100px;
 }
 .mp3-area {
-    background-image:url(images/wallpaper.jpg);
+   /* background-image:url(images/wallpaper.jpg);*/
     background-attachment: fixed;
-    -webkit-background-size: cover;
+  /*  -webkit-background-size: cover; */
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -110,7 +110,7 @@ font-weight: bold;
 .single-country {
     background-image:url(images/flagsfadesmall.png);
     background-attachment: fixed;
-    -webkit-background-size: contain;
+  /*  -webkit-background-size: contain; */
     background-size: contain;
     background-position: center center;
     position: relative;
@@ -128,7 +128,7 @@ font-weight: bold;
 .bandmembers-area {
     background-image:url(images/bandmembers/woodstockfade.jpg);
     background-attachment: fixed;
-    -webkit-background-size: cover;
+   /* -webkit-background-size: cover; */
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -143,14 +143,19 @@ font-weight: bold;
     font-weight: bold;
     
 }
-
-
+/*
+.maingallery-image {
+    border-style:solid;
+    border-color: yellow;
+    border-width: 40px;
+    
+} */
 
 
 .contact-area{
     position: relative;
     background-image: url(images/faded.jpg);
-    -webkit-background-size: cover;
+   /* -webkit-background-size: cover; */
     background-size: cover;
     background-position: center center;
     z-index: 1;
@@ -173,7 +178,7 @@ footer {
     text-align: center;
 }
 
-.social-media ul li a {
+footer ul li a {
     font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -238,23 +243,25 @@ footer {
 .poster-image1 { border-radius:8px;
  display:none; }
 }
-@media screen and (max-width: 1000px), {
+@media screen and (max-width: 1000px) {
   .ipadpro-img   {  display:none;      
     
   }
 }
-@media screen and (max-width: 1200px), {
+@media screen and (max-width: 1200px) {
   .xl-img   {  display:none;   
               
     
   }
 }
-@media screen and (max-width: 1200px), {
-  .bandmember-img  { border-image:50px;
+
+/*
+@media screen and (max-width: 1200px) {
+  .bandmember-img  {border-image:50px;
   }
 }
 
-/*
+
 @media screen and (min-width: 1001px) , {
   .ipadpro-img   {  display:       
     
