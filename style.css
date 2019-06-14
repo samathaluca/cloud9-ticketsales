@@ -4,6 +4,7 @@ font-family: 'Lato', sans-serif;
 
 .section-padding{
     padding:33px 0;
+
 }
 
 .section-header {
@@ -17,7 +18,7 @@ font-family: 'Lato', sans-serif;
   border-radius: 0;
   background-color: #000000;
   color: #fff;
-  padding: 150;
+ 
   border: 0;
 }
 
@@ -52,10 +53,11 @@ font-family: 'Lato', sans-serif;
 
     
 /*mp3 area*/
-.musicaudio {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 1000px
+#musicaudio {
+    margin-top: 66px;
+    margin-bottom: 66px;
+    
+    padding-top: 100px;
 }
 .mp3-area {
     background-image:url(images/wallpaper.jpg);
@@ -65,6 +67,7 @@ font-family: 'Lato', sans-serif;
     background-position: center center;
     position: relative;
     z-index: 1;
+    
 }
 .mp3-area:before{
     content: '';
@@ -95,7 +98,7 @@ font-weight: bold;
 .single-country{
     font-family: 'Ubuntu', sans-serif;
     border: 1px solid #000000;
-    padding: 30px 20px;
+    padding: 30px 15px;
     margin-bottom: 15px;
 }
 .single-country {
@@ -120,13 +123,11 @@ font-weight: bold;
      
 }
 
-.bandmembers {
-    padding: 30px;
-}
-.bandimages {
+
+/*.bandimages {
     padding: 3000px;
 }
-/*.bandmembers img {
+.bandmembers img {
     margin: auto; 
 } */
 .bandmembers-area {
@@ -148,13 +149,13 @@ font-weight: bold;
     
 }
 
-.bandimages { border-radius:8px;
+/*.bandimages { border-radius:8px;
              
   border: 15px solid black;
-  padding: 50px;
+  padding: 25px;
   margin: 20px;
 }
-
+*/
 
 
 .contact-area{
@@ -204,17 +205,18 @@ footer {
     padding-top: 10px;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
   .section-padding {
     background-color: #D7DBDD;
   }
 }
-
-
-
+@media only screen and (max-width: 500px) {
+ #musicaudio {
+    
+    
+    padding-top: 0px;
+}
+}
 
 @media only screen and (max-width: 500px) {
   .poster-image1{
@@ -222,7 +224,7 @@ footer {
     }
 
   }
-}
+
 
 @media only screen and (max-width: 600px) {
   .nav-area {
@@ -235,5 +237,79 @@ footer {
   margin-top: 20px;
     
   }
+
+}
+
+@media only screen and (max-width: 600px) {
+  #musicaudio {
+    
+    
+    padding: 0px;
+
+
+    
+  }
+}
+@media screen and (max-width: 1000px) , {
+  .ipadpro-img   {  display:none;      
+    
+  }
+}
+@media only screen and (max-width: 600px) {
+.about-iframe {
+    padding-right: 0px;}
+.item-text{
+    padding-left: 0px;
+    
+} }
+@media only screen and (max-width:500px) {
+.poster-image2 { border-radius:8px;
+             
+  border: 15px solid black;
+  display:none;
+}}
+@media only screen and (min-width:500px) {
+.poster-image1 { border-radius:8px;
+             
+  
+  display:none; }
+}
+
+@media only screen and (min-width:1000px) {
+.carousel-item { height:800px;
+             
+ }
+}
+
+  /*  
+    
+  @media only screen and (min-width: 600px) {
+  .bandmembers-area {
+  margin-top: 20px; } }
+  
+   @media only screen and (min-width: 400px) { .xs-images {
+    font-size: 10px;
+    display: none} }
+    
+    @media only screen and (min-width: 400px) { .bandimages {
+    font-size: 10px;
+    display: none} }
+  
+ 
+  @media only screen and (max-width: 400px) {
+   */    
+  
+ 
+/* @media only screen and (max-width: 400px) {
+.bandimages { border-radius:8px;
+text-align: justify;
+  border: 15px solid black;
+  padding: 0;
+  margin: 0px; 
+  
+  
+  h4 .tickets-country */
+             
+
 
 
