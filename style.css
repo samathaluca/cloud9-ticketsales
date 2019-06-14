@@ -124,12 +124,7 @@ font-weight: bold;
 }
 
 
-/*.bandimages {
-    padding: 3000px;
-}
-.bandmembers img {
-    margin: auto; 
-} */
+
 .bandmembers-area {
     background-image:url(images/bandmembers/woodstockfade.jpg);
     background-attachment: fixed;
@@ -149,13 +144,7 @@ font-weight: bold;
     
 }
 
-/*.bandimages { border-radius:8px;
-             
-  border: 15px solid black;
-  padding: 25px;
-  margin: 20px;
-}
-*/
+
 
 
 .contact-area{
@@ -170,7 +159,9 @@ font-weight: bold;
     
 }
 
-.footer-area .section-padding {padding-left: 15px;}
+.footer-area .section-padding {padding-left: 15px;
+    
+}
 
 footer {
     background-color: #000000;
@@ -179,6 +170,7 @@ footer {
     padding-left: 15px;
     
     font-family: 'Audiowide', cursive; 
+    text-align: center;
 }
 
 .social-media ul li a {
@@ -188,6 +180,7 @@ footer {
     color: #fafafa;
     letter-spacing: 30px;
     padding-top: 10px;
+    
 }
 
 .social-media .section-padding
@@ -198,90 +191,85 @@ footer {
     font-weight: bold;
     color: #000;
     font-size: 10em;
+    text-align: center
      }
 
-.list-inline { 
-    text-align: center;
-    padding-top: 10px;
-}
+
 
 @media only screen and (max-width: 600px) {
-  .section-padding {
+ .section-padding {
     background-color: #D7DBDD;
   }
 }
-@media only screen and (max-width: 500px) {
- #musicaudio {
-    
-    
-    padding-top: 0px;
-}
-}
-
-@media only screen and (max-width: 500px) {
-  .poster-image1{
-       display: none
-    }
-
-  }
-
-
 @media only screen and (max-width: 600px) {
   .nav-area {
     font-size: 12px;
   }
 }
-
-@media only screen and (min-width: 600px) {
-  .bandmembers-area {
-  margin-top: 20px;
-    
-  }
-
-}
-
-@media only screen and (max-width: 600px) {
-  #musicaudio {
-    
-    
-    padding: 0px;
-
-
-    
-  }
-}
-@media screen and (max-width: 1000px) , {
-  .ipadpro-img   {  display:none;      
-    
-  }
-}
+@media only screen and (min-width:1000px) {
+.carousel-item {
+    height:666px;}
+} 
 @media only screen and (max-width: 600px) {
 .about-iframe {
     padding-right: 0px;}
 .item-text{
     padding-left: 0px;
-    
-} }
-@media only screen and (max-width:500px) {
+    } 
+}
+@media only screen and (max-width: 600px) {
+  #musicaudio {
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .bandmembers-area {
+  margin-top: 20px;
+    }
+}
+@media only screen and (min-width:501px) {
 .poster-image2 { border-radius:8px;
              
-  border: 15px solid black;
+  border: 150px solid black;
   display:none;
-}}
-@media only screen and (min-width:500px) {
+    }
+}
+@media only screen and (max-width:500px) {
 .poster-image1 { border-radius:8px;
-             
-  
-  display:none; }
+ display:none; }
+}
+@media screen and (max-width: 1000px), {
+  .ipadpro-img   {  display:none;      
+    
+  }
+}
+@media screen and (max-width: 1200px), {
+  .xl-img   {  display:none;   
+              
+    
+  }
+}
+@media screen and (max-width: 1200px), {
+  .bandmember-img  { padding:50px;
+  }
 }
 
-@media only screen and (min-width:1000px) {
-.carousel-item { height:800px;
-             
- }
+/*
+@media screen and (min-width: 1001px) , {
+  .ipadpro-img   {  display:       
+    
+  }
 }
 
-  /*  
+
+
+
+    /*@media only screen and (max-width: 500px) {
+  .poster-image1{
+       display: none
+    }
+
+  }
     
   @media only screen and (min-width: 600px) {
   .bandmembers-area {
@@ -308,7 +296,18 @@ text-align: justify;
   margin: 0px; 
   
   
-  h4 .tickets-country */
+  h4 .tickets-country
+  
+  @media only screen and (max-width: 500px) {
+ #musicaudio {
+    
+    
+    padding-top: 0px;
+}
+}.list-inline { 
+    text-align: center;
+    padding-top: 10px;
+}*/
              
 
 
