@@ -40,8 +40,11 @@ font-family: 'Lato', sans-serif;
 /*jumbotron area*/
 
 .jumbotron {
-    margin-top: 50px;
-}
+    margin-top: 50px}
+.jumbotron {
+    margin-bottom: 0px}
+   
+
 
 
 .about-iframe {
@@ -49,8 +52,11 @@ font-family: 'Lato', sans-serif;
 .item-text{
     padding-left: 15px;
     margin-bottom: 15px;
+ 
 }
-
+.justify-text {text-align:justify;
+ font-size: 15px;
+    }
     
 /*mp3 area*/
 #musicaudio {
@@ -200,17 +206,14 @@ footer ul li a {
      }
 
 
+ /*
 
 @media only screen and (max-width: 600px) {
- .section-padding {
-    background-color: #D7DBDD;
-  }
-}
-@media only screen and (max-width: 600px) {
   .nav-area {
-    font-size: 12px;
+    font-size: 12px; 
   }
-}
+}*/
+
 @media only screen and (min-width:1000px) {
 .carousel-item {
     height:666px;}
@@ -268,7 +271,11 @@ footer ul li a {
   }
 }
 
-
+@media only screen and (max-width: 600px) {
+ .section-padding {
+    background-color: #D7DBDD;
+  }
+}
 
 
     /*@media only screen and (max-width: 500px) {
