@@ -1,4 +1,4 @@
-Your Project's Name
+Your Project's Name WTH
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
