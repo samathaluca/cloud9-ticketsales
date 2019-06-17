@@ -50,8 +50,11 @@ color: #000000;
     color: #080808;
 }
 
-h2 { font-family: 'Audiowide', cursive; }
+h2 { font-family: 'Audiowide', cursive;
+    margin-top: 50px}
 
+.famoustracks {margin-top: 0px;
+text-align: center; }
 
 
 .about-iframe {
@@ -83,6 +86,7 @@ h2 { font-family: 'Audiowide', cursive; }
     background-position: center center;
     position: relative;
     z-index: 1;
+    padding-bottom: 25px;
     
 }
 .mp3-area:before{
@@ -214,8 +218,31 @@ footer ul li a {
     text-align: center
      }
 
+/*<!DOCTYPE html>
+<html>
+  <head>
+    <title>The CSS transition</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <div class="box">
+    	Hover
+    </div>
+  </body>
+</html>
 
- /*
+.box {
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+}   
+.hvr-sweep-to-right {
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  width: 150px;
+}"hvr-sweep-to-right
+ /* */
 
 @media only screen and (max-width: 600px) {
   .nav-area {
