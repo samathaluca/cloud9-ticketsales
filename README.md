@@ -55,7 +55,8 @@ or b) by linking to a few examples of the venues, but still ensuring that the us
 -Links to social media have been added but positioned after the opportunity to buy tickets but included to show profile and add interest.
 -The site needs to go live before the start of the tour to ensure all venues are still available.
 -Gathering details via the contact page will help promote future tours and be an indication of how the site has captured the interest of the users.
-  
+-I researched the 25 most popular band websites and presented the user with all the most popular features to confirm with current UI expectations. 
+
 **The customer goals**
 The users will be fans of the who or potential fans.
 -As a potential fan I want to be reassured that the band is still relevant today. I need to know that the band is not jaded, tired and lacklustre. 
@@ -108,6 +109,7 @@ As regular attender of live concerts and festivals I know that sometimes a quick
 This is an assumption which would be adapted quickly after the site goes live and e.g. google analytics evidence that users are leaving the site quickly and contact form has minimal response. 
  
  **_ structure plane:_**
+ Considering IA- Information Architecture
 The call to action tour and ticket section is placed first in the navigation bar but further down in the body of the site  . 
  
 The thinking being that users may simply want to buy a ticket, using the navigation bar to get there immediately. 
@@ -145,7 +147,7 @@ As the design evolved and with guidance from my mentor, I opted for a one page d
 Please find the latest pen and paper design in mockup file.
 Wireframe mockups:
 
-![Prospective wireframe](images/wireframes/wireframe1.jpg)
+![Prospective wireframe](ticketsales/images/wireframes/wireframe1.jpg)
 
 ![Relevant first wireframe](images/wireframes/wireframe2.jpg)
 
@@ -175,12 +177,13 @@ The Who were famous for the antics on stage. Particularly Pete Townsend 's jumps
 Plus the band famously smashed up instruments on stage appealing to the sixties mood.
 The landing page carousel of atmospheric pictures will hopefully appeal to live music fans. 
 Capturing the moments the band is most famous for will hopefully be appreciated by lovers of festivals.
-The intention being that the carousel images create interest and evoke mood by including grainy original pictures. 
+The intention being that the carousel images create interest and evoke mood by including original (but not too poor quality)  pictures. 
 Instead of changing the vertical height of the third picture I left it raw on smaller screens. I liked the added character of the original authenticity.
 On larger screens the different height was too much so I set the height of each image to match using media queries.
 A black and white theme is chosen due to the 1960s history.
 I did try both the sixties and the later bullseye logo on the nav bar but the look of simplistic original version appeared more in keeping. 
 The carousel is a bootstrap component. 
+
 #### About
 
 Information section. 
@@ -194,9 +197,16 @@ As there are two dead original band members I did think about honouring them and
 In addition new band members are usually transient so the site could become quickly outdated.
 I focused on the core members who are still going strong with voices and energy that is still impressive.
 The text information content is a supportive gesture maintaining focus on the live concert video.
-    
+ 
+#### Famous Tracks
+Background is kept simple as the appearance with a background image or wallpaper was not as attractive within the overall site. It was noted that the audio controls loaded with purple spot colour in Internet explorer browser. 
+With the simple background this looked aesthetic and the functionality remained in tact so no html or css amendments were made to alter this.
+The famous tracks section includes. 
+- 6 Audio song clips. Using audio control to play popular songs in mp3 format. Allows users to listen to popular songs by the band from within the site. 
+- 6 audio clips were chosen for their small file size, variety of styles and familiarity. Plus they are slightly different from other tracks which are at the forefront of social media.
+  
 #### Buy Tickets
-Features 
+
 Tour dates shutterstock image
 - Ticket buying
     - buy tickets next to the tour dates of the band so that people can go straight from the website and not look it up separately
@@ -206,13 +216,7 @@ e.g. ticket buying links but the standard blue matches the red blue and white fl
 I have made the gallery a collage as I think it appeals to the senses and gives a more authentic feel to the page. 
 I have not changed things just to prove I can do it for example I can easily change image size and font colour
  
-#### Famous Tracks
-Background is kept simple as the appearance with a background image or wallpaper was not as attractive within the overall site. It was noted that the audio controls loaded with purple spot colour in Internet explorer browser. 
-With the simple background this looked aesthetic and the functionality remained in tact so no html or css amendments were made to alter this.
-The famous tracks section includes. 
-- 6 Audio song clips. Using audio control to play popular songs in mp3 format. Allows users to listen to popular songs by the band from within the site. 
-- 6 audio clips were chosen for their small file size, variety of styles and familiarity. Plus they are slightly different from other tracks which are at the forefront of social media.
- 
+
 #### Gallery 
 The poster image at the top of the gallery was intended to convey youthful prowess. Marketing often concludes that images of attractive faces are what users engage with. 
 The image of heady days was initially chosen before I decided which type of gallery most suited the site. With extensive experimentation, I eventually favoured the collage style popular in the band's hayday.
@@ -226,12 +230,15 @@ possibly giving rise to the popularity of festivals today. The background image 
 - The poster image at the top of the gallery is resized for different screen sizes. Media queries removed the oversized image responsively.
 - Recent 2018 images live in action on stage at new year 2019 would hopefully create interest in seeing the band live on tour this year. 
  
-#### Contact Bootstrap component form amended password for text box and remove check box 
-- Contact form
-    - Contact form for users interested in receiving future tour information and fan club information. 
-    - Required input field for email and small text field for short message. 
-    - Submit button will advise the user if they have inputted the password incorrectly. 
+#### Contact section 
+ - Contact form
+ Aim is for users to complete it if they are interested in receiving future tour information and fan club information.
+The form is a Bootstrap component which has been amended so that a text type input box replaces the need for a password input. 
+I removed the check box deeming it unnecessary 
+ - Required input field for email plus a small text field for short message. 
+ - Submit button will advise the user if they have inputted the password and text box incorrectly. 
  
+
 #### Footer 
 Home Link to the home part of the page.
 Social media link via font awesome icons.
@@ -250,6 +257,15 @@ modal thanking for ticket enquiry and purchase.
  As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order.
 - 
 As a potential client, I want to know what past clients thought of their artwork and the service they received.
+
+A message to thank the customer unintrusively for
+a) clicking to buy concert tickets
+b) filling in the contact form details . 
+
+More understanding of the latest GDPR legislation will be considered for future contact form development. 
+If too mnay false enquiries are made CAPTCHA would be set up.
+The current contact form encourages brief messages with the goal of increasing the number of users prepared to make the effort of completing it. 
+
 
 ## Tech Used
 -Cloud9 - IDE used throughout development.
@@ -298,7 +314,7 @@ HTML and CSS validators were used througout development.
 [HTML Validator](https://validator.w3.org/.)
 [HTML Validator](https://validator.w3.org/#validate_by_input)
 [CSS VALIDATOR](http://www.css-validator.org/)
-
+https://jigsaw.w3.org/css-validator/
 [Markdown test](https://markdownlivepreview.com/)
 
 
@@ -323,7 +339,7 @@ ALL LINKS TESTED to external website social emdia etc
  That is |between fonts. 
  All CSS errors were corrected. 
  
-ALL THE LINKS ON THE SITE AND CONTACT FORM were tested throughout. 
+ALL THE LINKS ON THE SITE AND CONTACT FORM were tested throughout. Contact form required field for email or text type works well.
 Final tests were made using
 AutoPrefixer
 This project used AutoPrefixer to make sure the css code is valid for all browsers.
