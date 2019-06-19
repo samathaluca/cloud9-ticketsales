@@ -1,7 +1,7 @@
 # README.md 
 
-VIEW WEBITE AT GIT PAGES*****************
-
+VIEW WEBITE AT GIT PAGES FOLLOWING LINK
+[Milestone Project 1](https://samathaluca.github.io/ticketsales/)
 Milestone project 1, featuring _The Who_.
  
 ## The Who Website/Ticket sales
@@ -41,47 +41,50 @@ most relevant may not have cutting edge technology and hardware to view the site
 
 
 **The business goals** of this website are:
--To showcase the past success and credibilty of the band today.
--To show the band is still compelling today.
--To promote the band, in particular their concert ticket sales. As bands now make less money from record sales than ever
+* To showcase the past success.
+* To show the credibilty of the band in 2019 and evidence that they are still compelling today.
+* To promote the band, in particular their concert ticket sales. As bands now make less money from record sales than ever
 before , their concert ticket sales are crucial to them. 
--To make it intuitively easy to buy tickets on impulse as simply as possible. 
--To provide an option to buy tickets in each of the local currencies of all the tour venues is included. This should give immediate confidence 
+* To make it intuitively easy to buy tickets on impulse as simply as possible. 
+* To provide an option to buy tickets in each of the local currencies of all the tour venues available. This should give immediate confidence 
 and stop the barrier of currency exchange concerns. 
--To all the buy tickets section to be reached quickly either by scrolling to or reaching instantly using the navigation bar links.
--To give buying confidence by offering both the option of a)the major ticket selling sites in case buying from each separate arena's website can distracts the user with adverts for 
+* To allow the buy tickets section to be reached quickly either by scrolling to or reaching instantly using the navigation bar links.
+* To give buying confidence by offering both the option of 
+  * a)the major ticket selling sites in case buying from each separate arena's website can distracts the user with adverts for 
 other events or sellout dates and potentially lose sales.
-or b) by linking to a few examples of the venues, but still ensuring that the user will link directly on to the relevant page to keep focus on The Who.
--Links to social media have been added but positioned after the opportunity to buy tickets but included to show profile and add interest.
--The site needs to go live before the start of the tour to ensure all venues are still available.
--Gathering details via the contact page will help promote future tours and be an indication of how the site has captured the interest of the users.
--I researched the 25 most popular band websites and presented the user with all the most popular features to confirm with current UI expectations. 
+or 
+  * b) by linking to a few examples of the venues, but still ensuring that the user will link directly on to the relevant page to keep focus on The Who.
+* Links to social media have been added but positioned after the opportunity to buy tickets but included to show profile and add interest.
+* The site needs to go live before the start of the tour to ensure all venues are still available.
+* Gathering details via the contact page will help promote future tours and be an indication of how the site has captured the interest of the users.
+* I researched the 25 most popular band websites and presented the user with all the most popular features to confirm with current UI expectations. 
 
 **The customer goals**
 The users will be fans of the who or potential fans.
--As a potential fan I want to be reassured that the band is still relevant today. I need to know that the band is not jaded, tired and lacklustre. 
-The first sign I would look for would be outdated information. 
--As an older fan, I would like to see pictures to reminisce about the youthful thrill of the times and enjoy memories but if I have older, 
+* As a potential fan I want to be reassured that the band is still relevant today. I need to know that the band is not jaded, tired and lacklustre. 
+* The first sign I would look for would be outdated information. I will be looking for recent information.
+* As an older fan, I would like to see pictures to reminisce about the youthful thrill of the times and enjoy memories but if I have older, 
 slower hardware and internet speed, immediacy would be important.
--As a younger fan or potential fan I want to feel a sense of the band's past massive sense but also see some evidence of their current credibility as 
+* As a younger fan or potential fan I want to feel a sense of the band's past massive sense but also see some evidence of their current credibility as 
 performers in spite of the band members ages.
- -As a user, I want to be sufficiently engaged so that I am motivated to perform  action (listening to music or booking a concert tickets), so that I can 
+* As a user, I want to be sufficiently engaged so that I am motivated to perform  action (listening to music or booking a concert tickets), so that I can 
 achieve a goal (feeling good or enjoy an event).
--As a user I will want to easily navigate the site, to find what I need efficiently with haste when I am short on time.
--As a user I may be searching for information and images which are of interest to me. I would like to see the past and present 
+* As a user I will want to easily navigate the site, to find what I need efficiently with haste when I am short on time.
+* As a user I may be searching for information and images which are of interest to me. I would like to see the past and present 
 relevance of the band.
--As a user when looking at images I will subconsiously want to listen to famous tracks. 
+* As a user when looking at images I will subconsiously want to listen to famous tracks. 
 The audio mp3 audio files in the body of the site will be important for me to stay on the site.
--As a regular concert attender and live music lover, I want to buy my tickets fast from reliable sellers via an intuitive and visually comforting ordering process.
--Otherwise as an infrequent concert attender , I want to be persuaded that my money will be well spent and that I am not risking disappointment.
--As a user, I want to understand the ordering process, so I know what steps to take next plus I want to order in my local
+* As a regular concert attender and live music lover, I want to buy my tickets fast from reliable sellers via an intuitive and visually comforting ordering process.
+* Otherwise as an infrequent concert attender , I want to be persuaded that my money will be well spent and that I am not risking disappointment.
+* As a user, I want to understand the ordering process, so I know what steps to take next plus I want to order in my local
 currency so that I do not have to check exchange rates or find myself booking on foreign sites so having to phone abroad if my tickets do not arrive promptly.
--As a fan I want a very simple contact form, so I can express my interest and learn about future tours or album launches.
--As a fan, I want to follow the band on social media, so I can keep up with their latest news.
--As a returning visitor to the website, I want to be able to go straight to the relevant section of interest.
--As a returning visitor to the website,  I want to be able to buy tickets again knowing I will not be phished 
+* As a fan I want a very simple contact form, so I can express my interest and learn about future tours or album launches.
+* As a fan, I want to follow the band on social media, so I can keep up with their latest news.
+* As a returning visitor to the website, I want to be able to go straight to the relevant section of interest.
+* As a returning visitor to the website,  I want to be able to buy tickets again knowing I will not be phished 
 (there is a whole industry dedicated to sites diverting from authentic ticket sellers- I know this from personal experience).
--As a returning visitor I want my previous familiarity with the site to minimise the time taken to book another ticket. -As a user I personally want to feel good about supporting musicians and song writers in their endeavours so that they remain motivated to tour and make new music 
+* As a returning visitor I want my previous familiarity with the site to minimise the time taken to book another ticket. 
+* As a user I personally want to feel good about supporting musicians and song writers in their endeavours so that they remain motivated to tour and make new music 
 for us to enjoy.
 
 The features of the site have been developed with all business and user needs and desires being considered. 
@@ -130,7 +133,8 @@ The skeleton will be a one page site with different sections . The sections will
  amount of content. 
  After discussing my rpoject with my mentor I decdied that one page captured all the main content well in different sections.
 
-**_ Surface plane:_** 
+ **_The Surface plane:_**.
+
 
 The black and white images evoke the sense of the band's longevity and pedigree. The colour lifted the site giving it dimension and modernity. 
  
@@ -155,14 +159,21 @@ Wireframe mockups:
 ## Features
  
 ### Existing Features
--- Bootstrap navbar linking to each section of the site.
+Bootstrap navbar linking to each section of the site.
 The one page project has a section focusing on
+
+
 _Home_
+
 _About_
+
 _Buy Tickets_
+
 _Famous tracks (audio clips)_
-_gallery_
-_contact_
+
+_Gallery_
+
+_Contact_
  
 #### Home
 Eye catching front page with simple strap line contained within a bootstrap jumbotron. 
@@ -194,13 +205,14 @@ The text information content is a supportive gesture maintaining focus on the li
  
 #### Famous Tracks
 The famous tracks section includes. 
--6 Audio song clips. Using audio control to play popular songs in mp3 format. Allows users to listen to popular songs by the band from within the site. 
--6 audio clips were chosen for their small file size, variety of styles and familiarity. Plus they are slightly different from other tracks which are at the forefront of social media.
+* 6 Audio song clips. Using audio control to play popular songs in mp3 format. Allows users to listen to popular songs by the band from within the site. 
+The 6 audio clips were chosen for their small file size, variety of styles and familiarity. Plus they are slightly different from other tracks which are at the forefront of social media.
+
 It was noted that the audio controls loaded with purple spot colour in Internet explorer browser. 
 With the section background this looked aesthetic and the functionality remained in tact so no html or css amendments were made to alter this.
   
 #### Buy Tickets
--Ticket buying
+* 6 different Ticket buying opportunities
     - buy tickets next to the tour dates of the band so that people can go straight from the website and not look it up separately
     - for the venues rather than independent ticket buying sites, I have ensuresD the link goes directly to the relevant page so that the 
     - user does not get frustrated or distracted trying to navigate the site. Therefore minimising the efforts and number of clicks to then purchase a ticket.
@@ -210,14 +222,16 @@ I have not changed things just to prove I can do it for example I can easily cha
 The background is a shutterstock images- the watermark is still present. This would be absent once the image was paid for.  
 
 #### Gallery 
--Gallery allows users to view photos of the band members and their characters. There is a collage of old and new photos. 
+Gallery allows users to view photos of the band members and their characters. There is a collage of old and new photos. 
 Monochrome and colour pictures have been blended for interesting contrast.  
 -The background image of the crowd at woodstock attempts to convey the influence and popularity of the band in the sixties. Woodstock was a historic music event which rippled through the world, 
 possibly giving rise to the popularity of festivals today. 
--The poster image at the top of the gallery was intended to convey youthful prowess. Marketing often concludes that images of attractive faces are what users engage with above anything else, particularly B2C.
+* The poster image at the top of the gallery was intended to convey youthful prowess. Marketing often concludes that images of attractive faces are what users engage with above anything else, particularly B2C.
  The image of heady days was initially chosen before I decided which type of gallery most suited the site.The poster image at the top of the gallery is resized for different screen sizes. Media queries removed the oversized image responsively.
--Recent, 2018 and new year 2019, images with a sense of on stage action would hopefully create interest in seeing the band live on tour this year. 
--With extensive experimentation (evidenced in git), I started with organised photo galleries but they seemed ordered and lacking in impact.
+* Recent, 2018 and new year 2019, images with a sense of on stage action would hopefully create interest in seeing the band live on tour this year. 
+
+With extensive experimentation (evidenced in git), I started with organised photo galleries but they seemed ordered and lacking in impact.
+Other layouts were not flattering for the aging band members. 
 I have eventually favoured the collage style, without spacing, as I think it appeals to the senses and gives a raw, authentic feel to the page fitting with the band's reputation for wild, love of dissension. 
 I have not changed things just to prove I can do it for my project if I believe it is detrimental example to the surface plane of the project.
 I can easily change image size and gallery style. I would monitor this with google analytics and quickly change the features if, once live, the site did not sell any tickets. 
@@ -244,10 +258,7 @@ Features Left to Implement
 extra audio clips 
 modal thanking for ticket enquiry and purchase. 
  
- As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order.
-- 
-As a potential client, I want to know what past clients thought of their artwork and the service they received.
-
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 A message to thank the customer unintrusively for
 a) clicking to buy concert tickets
 b) filling in the contact form details . 
@@ -291,38 +302,42 @@ The current contact form encourages brief messages with the goal of increasing t
 HTML and CSS validators were used througout development. 
 
 [HTML Validator](https://validator.w3.org/.)
-[HTML Validator](https://validator.w3.org/#validate_by_input)
+
 [CSS VALIDATOR](http://www.css-validator.org/)
 https://jigsaw.w3.org/css-validator/
+
 [Markdown test](https://markdownlivepreview.com/)
 
 
 
-ALL LINKS TESTED to external website social emdia etc
 
  Each time I was happy with the functionality of a section I checked the code .
- I tested repeatedly using developer tools and in different browsers. 
+ I tested repeatedly using google developer tools and in different browsers. 
  Sometimes the difference in presentation between browsers was attractive enough not to necessitate change, for example, 
  the audio controls are very different between browsers but still look good and function well. 
- I put forward my code to be tested in a slack online call session where the lead student pointed out various mistakes in the responsive design that I had not picked up in developer tools. 
- I posted my code for peer review in slack . I asked lead students, tutors and mentors to check the code for anything clearly out of sync. My mentor picked up an error in the console of dev tools which showed an image was not loading. 
+ I put forward my code to be tested in a slack online call session where the lead student pointed out various mistakes in the responsive design that 
+ I had not picked up in developer tools. 
+ I posted my code for peer review in slack . I asked lead students, tutors and mentors to check the code for anything clearly out of sync. 
+ My mentor picked up an error in the console of dev tools which showed an image was not loading. 
  I commented out the background image that was redundant in the design to test if it was important in any way.
  I constantly commented out changes before deleting amendments permanently in case anything unpredictable happened.
  I often ran tests e.g. ) padding:3000px so that subtle changes were not missed.
  My final html validator result showed two errors. One for the iframe width which uses a % rather than px or em. 
  I did not want to change it because it was working and resizing in different screens so well. 
- The response from other students in slack and CI tutor was that
- width % is acceptable so I left it.
- The only other error shown by the validator in the final code that I did not correct was the link listing the different fonts I had used. 
+ The response from other students in slack and CI tutor was that width % is acceptable so I left it.
+ The only other error shown by the validator in the final code that I did not correct was an amendment I had made to a  link listing the different fonts used. 
  I looked online for the solution to combining the fonts in to one url link. I then asked in slack. Both came up with the same solution which worked. 
- That is |between fonts. 
+ That is | between fonts. 
  All CSS errors were corrected. 
  
 ALL THE LINKS ON THE SITE AND CONTACT FORM were tested throughout. Contact form required field for email or text type works well.
+ALL LINKS TESTED to external website links, videos and social media repeatedly tested.
+
+
 Final tests were made using
 AutoPrefixer
 This project used AutoPrefixer to make sure the css code is valid for all browsers.
-
+I also laod the site in each of the following browsers.
 Google Chrome
 Google
 Bing
@@ -417,27 +432,22 @@ git push (-u) origin master
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
-Log into GitHub.
-From the list of repositories on the screen, select samathaluca/ticketsales.git
-From the menu items near the top of the page, select Settings.
-Scroll down to the GitHub Pages section.
-Under Source click the drop-down menu labelled None and select Master Branch
-On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+From the list of repositories on the screen I select "samathaluca/ticketsales.git"
+From the menu items near the top of the page, I selected Settings.
+I scrolled down to the GitHub Pages section.
+Under Source clicked the drop-down menu labelled None and select Master Branch
+On selecting Master Branch the page was automatically refreshed amd the website was now deployed.
+I scrolled back down to the GitHub Pages section to retrieve the link to the deployed website.
 
-How to run this project locally
-To clone this project from GitHub:
+The link supplied did not show the most recent version of the website. 
+Recent image changes had not been deployed. I added the images from my cloud9 IDE to the git repository.
+These changes were reflected in the deployed sites almost immediately. 
 
-Follow this link to the Project GitHub repository.
-Under the repository name, click "Clone or download".
-In the Clone with HTTPs section, copy the clone URL for the repository.
-In your local IDE open Git Bash.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-git clone https://github.com/USERNAME/REPOSITORY
-Press Enter. Your local clone will be created.
-Further reading and troubleshooting on cloning a repository from GitHub here.
+The URL I was given was [deployed project](https://samathaluca.github.io/ticketsales/)
+
+
+
+
 
 
 ####  Content
@@ -485,24 +495,22 @@ My Mentor Antonija Simic who reassured me when I made embarressing mistakes by t
 
 
 
-
+>block quote
  
  
 
+To clone this project from GitHub:
 
- 
- 
- 
- 
+Follow this link to the Project GitHub repository.
+Under the repository name, click "Clone or download".
+In the Clone with HTTPs section, copy the clone URL for the repository.
+In your local IDE open Git Bash.
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 3.
+git clone https://github.com/USERNAME/REPOSITORY
+Press Enter. Your local clone will be created.
+Further reading and troubleshooting on cloning a repository from GitHub here.
 
- 
-
- 
- 
- 
-
- 
- 
  
 Project Purpose.
 UX design.
@@ -523,26 +531,3 @@ Readme file.
 Comments.
 Deployment implementation.
 Deployment write-up
-
-
-
-
- 
-
- 
- 
-
-----
-## usage
-1. Write markdown text in this textarea.
-2. Click 'HTML Preview' button.
-
-----
-
-* list
-
->block quote
-
-  
-
-
