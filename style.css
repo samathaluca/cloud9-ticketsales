@@ -95,7 +95,14 @@ h2 { font-family: 'Audiowide', cursive;
 }
 .mp3-two{
     color:#fff;}
-
+.mp3-three{
+    color:#fff;}
+.mp3-four{
+    color:#fff;}
+.mp3-five{
+    color:#fff;}
+.mp3-six {
+    color:#fff;}
 .famoustracks {
     margin-top: 0px;
     text-align: center;
@@ -148,6 +155,11 @@ font-weight: bold;
     color:#000000;
     font-weight: bold;
 }
+.maingallery-image {
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
 
 /*contact area*/
 .contact-area{
