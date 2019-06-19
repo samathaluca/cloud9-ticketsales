@@ -68,7 +68,7 @@ h2 { font-family: 'Audiowide', cursive;
 }
 .mp3-area {
     
-   background-image:url(images/bgcrowd.jpg);
+   background-image:url(assets/crowdfaded.jpg);
    background-attachment: fixed;
   /*  -webkit-background-size: cover; */
     background-size: cover;
@@ -127,7 +127,7 @@ font-weight: bold;
     text-transform: none;
     font-weight: bold; }
 .single-country {
-    background-image:url(images/flagsfadesmall.png);
+    background-image:url(assets/flagscrop.jpg);
     background-attachment: fixed;
   /*  -webkit-background-size: contain; */
     background-size: contain;
