@@ -150,7 +150,7 @@ Wireframe mockups:
 
 ![Prospective wireframe](images/wireframes/wireframe1.jpg)
 
-![Relevant first wireframe](images/wireframes/wireframe2.jpg)
+[Relevant first wireframe](images/wireframes/wireframe2.jpg)
 
 ![Neat and responsive wireframe](images/wireframes/wireframe3.jpg)
 
@@ -214,12 +214,10 @@ With the section background this looked aesthetic and the functionality remained
 #### Buy Tickets
 * 6 different Ticket buying opportunities
     - buy tickets next to the tour dates of the band so that people can go straight from the website and not look it up separately
-    - for the venues rather than independent ticket buying sites, I have ensuresD the link goes directly to the relevant page so that the 
-    - user does not get frustrated or distracted trying to navigate the site. Therefore minimising the efforts and number of clicks to then purchase a ticket.
-e.g. ticket buying links but the standard blue matches the red blue and white flag and tour themes plus the who bullseye logo. 
-I have made the gallery a collage as I think it appeals to the senses and gives a more authentic feel to the page. 
-I have not changed things just to prove I can do it for example I can easily change image size and font colour
-The background is a shutterstock images- the watermark is still present. This would be absent once the image was paid for.  
+    - Full tour details and option to buy tickets are offered on the band's own website. 
+    - for the venues rather than independent ticket buying sites, I have ensured the link goes directly to the relevant page so that the user does not get frustrated or distracted trying to navigate the site. Therefore minimising the efforts and number of clicks to then purchase a ticket.
+
+The ticket buying links are standard blue. This was not changed because it matches the red, blue and white flag and tour themes plus the who's own  bullseye logo. 
 
 #### Gallery 
 Gallery allows users to view photos of the band members and their characters. There is a collage of old and new photos. 
@@ -235,6 +233,9 @@ Other layouts were not flattering for the aging band members.
 I have eventually favoured the collage style, without spacing, as I think it appeals to the senses and gives a raw, authentic feel to the page fitting with the band's reputation for wild, love of dissension. 
 I have not changed things just to prove I can do it for my project if I believe it is detrimental example to the surface plane of the project.
 I can easily change image size and gallery style. I would monitor this with google analytics and quickly change the features if, once live, the site did not sell any tickets. 
+
+The background is a shutterstock images- the watermark is still present. This would be absent once the image was paid for.  
+
 
 #### Contact section 
 -Aim is for users to complete it if they are interested in receiving future tour information and fan club information.
