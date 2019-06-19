@@ -88,7 +88,7 @@ The features of the site have been developed with all business and user needs an
 The overall strategy is to blend retro and modern information in a visual and informative way using images, video, music, quotes and headings 
 with swift navigation and transitions.
 
-**_ scope plane:_**.
+**_The scope plane:_**.
 Based on information from the strategy plane, a full concert video from their last tour demonstrates that the lead singer still has power in his voice 
 and live events will not be a disappointment.
 
@@ -108,7 +108,7 @@ of fans for whom the site will be most relevant may not have cutting edge techno
 As regular attender of live concerts and festivals I know that sometimes a quick ticket purchase without frills is what i desire.
 This is an assumption which would be adapted quickly after the site goes live and e.g. google analytics evidence that users are leaving the site quickly and contact form has minimal response. 
  
- **_ structure plane:_**
+**_The Structure plane:_**.
 Considering IA- Information Architecture
 A well-organized website is intuitive and easy to use. The one page site was set out with clear conceptual section hierarchy of what be most important to the user.
 It provides all users with a simple flow between sections, naturally guidingh a user to the information and on-site actions of promoting the band's music and concerts. 
@@ -117,7 +117,7 @@ The structure chosen was to present what users will expect to see on any band we
  
 The social media at the end will mean that users are not distracted and lead away immediately. 
  
- **_ skeleton plane:_**
+ **_The Skeleton plane:_**.
 The skeleton will be a one page site with different sections . The sections will be 
  
 -About
@@ -129,9 +129,9 @@ The skeleton will be a one page site with different sections . The sections will
  I started development of a 5 page site but then decided that there would be limited advantage to a multiple page design with such a tight focus and relatively 
  amount of content. 
  After discussing my rpoject with my mentor I decdied that one page captured all the main content well in different sections.
- 
-**_ surface plane:_**
- 
+
+**_ Surface plane:_** 
+
 The black and white images evoke the sense of the band's longevity and pedigree. The colour lifted the site giving it dimension and modernity. 
  
 Fonts used are easy to read, up to date choices.
@@ -144,14 +144,11 @@ As the design evolved and with guidance from my mentor, I opted for a one page d
 Please find the latest pen and paper design in mockup file.
 Wireframe mockups:
 
-![Prospective wireframe](ticketsales/images/wireframes/wireframe1.jpg)
+![Prospective wireframe](images/wireframes/wireframe1.jpg)
 
 ![Relevant first wireframe](images/wireframes/wireframe2.jpg)
 
 ![Neat and responsive wireframe](images/wireframes/wireframe3.jpg)
-
-![Prospective wireframe](images/bandmembers/gallery1.jpg)
-
 
 ( I started balsamiq design but found my ideas were not free flowing so I reverted back to paper and pen designs which help clarify thoughts more for me.)
  
@@ -196,23 +193,21 @@ I focused on the core members who are still going strong with voices and energy 
 The text information content is a supportive gesture maintaining focus on the live concert video.
  
 #### Famous Tracks
-Background is kept simple as the appearance with a background image or wallpaper was not as attractive within the overall site. It was noted that the audio controls loaded with purple spot colour in Internet explorer browser. 
-With the simple background this looked aesthetic and the functionality remained in tact so no html or css amendments were made to alter this.
 The famous tracks section includes. 
-- 6 Audio song clips. Using audio control to play popular songs in mp3 format. Allows users to listen to popular songs by the band from within the site. 
-- 6 audio clips were chosen for their small file size, variety of styles and familiarity. Plus they are slightly different from other tracks which are at the forefront of social media.
+-6 Audio song clips. Using audio control to play popular songs in mp3 format. Allows users to listen to popular songs by the band from within the site. 
+-6 audio clips were chosen for their small file size, variety of styles and familiarity. Plus they are slightly different from other tracks which are at the forefront of social media.
+It was noted that the audio controls loaded with purple spot colour in Internet explorer browser. 
+With the section background this looked aesthetic and the functionality remained in tact so no html or css amendments were made to alter this.
   
 #### Buy Tickets
-
-Tour dates shutterstock image
-- Ticket buying
+-Ticket buying
     - buy tickets next to the tour dates of the band so that people can go straight from the website and not look it up separately
     - for the venues rather than independent ticket buying sites, I have ensuresD the link goes directly to the relevant page so that the 
     - user does not get frustrated or distracted trying to navigate the site. Therefore minimising the efforts and number of clicks to then purchase a ticket.
 e.g. ticket buying links but the standard blue matches the red blue and white flag and tour themes plus the who bullseye logo. 
 I have made the gallery a collage as I think it appeals to the senses and gives a more authentic feel to the page. 
 I have not changed things just to prove I can do it for example I can easily change image size and font colour
- 
+The background is a shutterstock images- the watermark is still present. This would be absent once the image was paid for.  
 
 #### Gallery 
 -Gallery allows users to view photos of the band members and their characters. There is a collage of old and new photos. 
@@ -387,42 +382,43 @@ is rectified in the future.
 [Final Project version control](https://github.com/samathaluca/ticketsales.git)
 
 
-# Find out our current directory
-pwd
- 
-# List the contents of the directory
-ls
- 
-# Create a new local git repository
-git init
-# Check for the existence of the `.git` directory
-ls -a
- 
-# Add the `css` directory and each of the `.html` files to
-# the git staging area
-git add css/ stream-*.html
- 
-# Check the git status to double-check that they've been
-# added
-git status
- 
-# Do our first commit
-git commit -m "Initial commit"
- 
-# Add a remote
-git remote add origin https://github.com/aaroncistudent/my-first-website.git
- 
-# Push from our local repository to the remote
-git push -u origin master
-
 
 #### Deployment
 This project was developed using the Cloud9 IDE, committed to git and pushed to GitHub using the built in function within cloud9.
+The following  Git command line instructions were used. 
+###### Find out our current directory
+pwd
+ 
+###### List the contents of the directory
+ls
+ 
+###### Create a new local git repository
+git init
+###### Check for the existence of the `.git` directory
+ls -a
+ 
+###### Add the `css` and `images` directories and each of the `.html` files to
+###### the git staging area
+git add index.html style.css
+
+
+###### Check the git status to double-check that they've been added
+git status
+ 
+###### Do our first commit
+git commit -m "first commit"
+ 
+###### Add a remote
+git remote add origin https://github.com/samathaluca/ticketsales.git
+ 
+###### Push from our local repository to the remote
+git push (-u) origin master
+
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 Log into GitHub.
-From the list of repositories on the screen, select AJGreaves/portrait-artist.
+From the list of repositories on the screen, select samathaluca/ticketsales.git
 From the menu items near the top of the page, select Settings.
 Scroll down to the GitHub Pages section.
 Under Source click the drop-down menu labelled None and select Master Branch
@@ -450,7 +446,7 @@ The photos used in this site were obtained from google images.
 Shutterstock background image was used in buy ticket section. It was not purchased and so has watermarks but please consider that i would buy it is necessary.
 Audio clips used were provided by ......... spotify 
 
-## Reference
+#### Reference
 -As a complete beginner to coding I need to read, watch and listen to a wealth of additional resources.
 
 These included
@@ -483,7 +479,7 @@ Other student's work and projects, particularly those referenced on slack gave m
 
 ####  Acknowledgements
 Slack Community Particularly Anna Greaves who convinced me how worthwhile it was to become involved.
-CI tutors 
+CI tutors Especially Neil for his rapid and problem solving answers.
 My Mentor Antonija Simic who reassured me when I made embarressing mistakes by telling me it was inevitable because I was learning. 
 
 
@@ -529,11 +525,6 @@ Deployment implementation.
 Deployment write-up
 
 
-Deployment
-This project was developed using the Cloud9 IDE, committed to git and pushed to GitHub using the built in function within cloud9.
- 
-To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
- 
 
 
  

@@ -1,5 +1,5 @@
-body {
- font-family:'Lato', sans-serif;
+.body-font {
+font-family:'Lato', sans-serif;
 color: #000000; 
 }
 h2 { font-family: 'Audiowide', cursive;
@@ -7,7 +7,6 @@ h2 { font-family: 'Audiowide', cursive;
     
 .section-padding  {
     padding:0px;
-    
 }
 .section-header {
     padding-bottom: 33px;
@@ -28,7 +27,7 @@ h2 { font-family: 'Audiowide', cursive;
     margin: 0;
     font-weight: bold;
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
 }
 .nav-item{
     padding:0 10px;
@@ -42,9 +41,10 @@ h2 { font-family: 'Audiowide', cursive;
     margin-bottom: 0px;
     color: #080808;
 }
-
 /*About area */
-
+.about-headings {
+    margin-top: 50px;
+}
 .about-iframe {
     padding-right: 15px;
     margin-top: 15px;
@@ -61,13 +61,14 @@ h2 { font-family: 'Audiowide', cursive;
 /*mp3 area*/
 
 #musicaudio {
-    margin-top: 6600px;
+    margin-top: 66px;
     margin-bottom: 66px;
     padding-top: 100px;
 }
 .mp3-area {
-   /* background-image:url(images/wallpaper.jpg);*/
-    background-attachment: fixed;
+    
+   background-image:url(images/bgcrowd.jpg);
+   background-attachment: fixed;
   /*  -webkit-background-size: cover; */
     background-size: cover;
     background-position: center center;
@@ -93,9 +94,11 @@ h2 { font-family: 'Audiowide', cursive;
 }
 .mp3-two{
     color:#fff;}
+
 .famoustracks {
     margin-top: 0px;
-    text-align: center; 
+    text-align: center;
+    
 }
 
 
@@ -144,12 +147,6 @@ font-weight: bold;
     color:#000000;
     font-weight: bold;
 }
-/*
-.maingallery-image {
-    border-style:solid;
-    border-color: yellow;
-    border-width: 40px;
-} */
 
 /*contact area*/
 .contact-area{
@@ -179,7 +176,7 @@ footer ul li a {
     color:#fafafa;
     letter-spacing: 30px;
     padding-top: 10px;
-} /*#fafafa8*/
+} 
 .social-media .section-padding {
     padding-right: 0;
     padding-left: 0;
@@ -190,31 +187,6 @@ footer ul li a {
     text-align: center
 }
 
-/*<!DOCTYPE html>
-<html>
-  <head>
-    <title>The CSS transition</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-  </head>
-  <body>
-    <div class="box">
-    	Hover
-    </div>
-  </body>
-</html>
-
-.box {
-  border: 1px solid #000;
-  width: 50px;
-  height: 50px;
-}   
-.hvr-sweep-to-right {
-  transition-property: width;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out;
-  width: 150px;
-}"hvr-sweep-to-right
- /* */
 
 @media only screen and (max-width: 600px) {
   .nav-area {
@@ -262,71 +234,7 @@ footer ul li a {
     }
 }
 
-/*
-@media screen and (max-width: 1200px) {
-  .bandmember-img  {border-image:50px;
-  }
-}
 
-
-@media screen and (min-width: 1001px) , {
-  .ipadpro-img   {  display:       
-    
-  }
-}
-
-@media only screen and (max-width: 600px) {
- .section-padding {
-    background-color: #D7DBDD;
-  }
-}
-
-
-    /*@media only screen and (max-width: 500px) {
-  .poster-image1{
-       display: none
-    }
-
-  }
-    
-  @media only screen and (min-width: 600px) {
-  .bandmembers-area {
-  margin-top: 20px; } }
-  
-   @media only screen and (min-width: 400px) { .xs-images {
-    font-size: 10px;
-    display: none} }
-    
-    @media only screen and (min-width: 400px) { .bandimages {
-    font-size: 10px;
-    display: none} }
-  
- 
-  @media only screen and (max-width: 400px) {
-   */    
-  
- 
-/* @media only screen and (max-width: 400px) {
-.bandimages { border-radius:8px;
-text-align: justify;
-  border: 15px solid black;
-  padding: 0;
-  margin: 0px; 
-  
-  
-  h4 .tickets-country
-  
-  @media only screen and (max-width: 500px) {
- #musicaudio {
-    
-    
-    padding-top: 0px;
-}
-}.list-inline { 
-    text-align: center;
-    padding-top: 10px;
-}*/
-             
 
 
 
