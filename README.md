@@ -234,7 +234,6 @@ I have eventually favoured the collage style, without spacing, as I think it app
 I have not changed things just to prove I can do it for my project if I believe it is detrimental example to the surface plane of the project.
 I can easily change image size and gallery style. I would monitor this with google analytics and quickly change the features if, once live, the site did not sell any tickets. 
 
-The background is a shutterstock images- the watermark is still present. This would be absent once the image was paid for.  
 
 
 #### Contact section 
