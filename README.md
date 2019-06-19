@@ -109,14 +109,11 @@ As regular attender of live concerts and festivals I know that sometimes a quick
 This is an assumption which would be adapted quickly after the site goes live and e.g. google analytics evidence that users are leaving the site quickly and contact form has minimal response. 
  
  **_ structure plane:_**
- Considering IA- Information Architecture
-The call to action tour and ticket section is placed first in the navigation bar but further down in the body of the site  . 
- 
-The thinking being that users may simply want to buy a ticket, using the navigation bar to get there immediately. 
- 
-Other users may need to be persuaded by images and videos before they believe it is worth spending the money.
- 
-The structure chosen was to present a simple flow of what users will expect to see on any band website.
+Considering IA- Information Architecture
+A well-organized website is intuitive and easy to use. The one page site was set out with clear conceptual section hierarchy of what be most important to the user.
+It provides all users with a simple flow between sections, naturally guidingh a user to the information and on-site actions of promoting the band's music and concerts. 
+The structure chosen was to present what users will expect to see on any band website. Research was done by searching _best band websites_. 
+
  
 The social media at the end will mean that users are not distracted and lead away immediately. 
  
@@ -218,25 +215,24 @@ I have not changed things just to prove I can do it for example I can easily cha
  
 
 #### Gallery 
-The poster image at the top of the gallery was intended to convey youthful prowess. Marketing often concludes that images of attractive faces are what users engage with. 
-The image of heady days was initially chosen before I decided which type of gallery most suited the site. With extensive experimentation, I eventually favoured the collage style popular in the band's hayday.
-The woman's legs on pete townsend are deliberate for humour and never taking themselves too seriously 
- I have made the gallery a collage as I think it appeals to the senses and gives a more authentic feel to the page. 
-I have not changed things just to prove I can do it for example I can easily change image size and font colour
-- Photo gallery
-- Allows users to view photos of the band members and their characters. There is a collage of old and new photos. Monochrome and colour pictures have been blended for interesting contrast.  
-- The background image attempts to convey the influence and popularity of the band in the sixties. Woodstock was a historic music event which rippled through the world, 
-possibly giving rise to the popularity of festivals today. The background image is a picture of the crowd at Woodstock.
-- The poster image at the top of the gallery is resized for different screen sizes. Media queries removed the oversized image responsively.
-- Recent 2018 images live in action on stage at new year 2019 would hopefully create interest in seeing the band live on tour this year. 
- 
+-Gallery allows users to view photos of the band members and their characters. There is a collage of old and new photos. 
+Monochrome and colour pictures have been blended for interesting contrast.  
+-The background image of the crowd at woodstock attempts to convey the influence and popularity of the band in the sixties. Woodstock was a historic music event which rippled through the world, 
+possibly giving rise to the popularity of festivals today. 
+-The poster image at the top of the gallery was intended to convey youthful prowess. Marketing often concludes that images of attractive faces are what users engage with above anything else, particularly B2C.
+ The image of heady days was initially chosen before I decided which type of gallery most suited the site.The poster image at the top of the gallery is resized for different screen sizes. Media queries removed the oversized image responsively.
+-Recent, 2018 and new year 2019, images with a sense of on stage action would hopefully create interest in seeing the band live on tour this year. 
+-With extensive experimentation (evidenced in git), I started with organised photo galleries but they seemed ordered and lacking in impact.
+I have eventually favoured the collage style, without spacing, as I think it appeals to the senses and gives a raw, authentic feel to the page fitting with the band's reputation for wild, love of dissension. 
+I have not changed things just to prove I can do it for my project if I believe it is detrimental example to the surface plane of the project.
+I can easily change image size and gallery style. I would monitor this with google analytics and quickly change the features if, once live, the site did not sell any tickets. 
+
 #### Contact section 
- - Contact form
- Aim is for users to complete it if they are interested in receiving future tour information and fan club information.
+-Aim is for users to complete it if they are interested in receiving future tour information and fan club information.
 The form is a Bootstrap component which has been amended so that a text type input box replaces the need for a password input. 
 I removed the check box deeming it unnecessary 
- - Required input field for email plus a small text field for short message. 
- - Submit button will advise the user if they have inputted the password and text box incorrectly. 
+-Required input field for email plus a small text field for short message. 
+-Submit button will advise the user if they have inputted the password and text box incorrectly. 
  
 
 #### Footer 
@@ -244,11 +240,10 @@ Home Link to the home part of the page.
 Social media link via font awesome icons.
  
  
- 
-  
- 
- ### Future Features
+### Future Features
 extra audio clips 
+ 
+ call to action and sales - tickets left
  
 Features Left to Implement
 extra audio clips 
@@ -295,18 +290,7 @@ The current contact form encourages brief messages with the goal of increasing t
 -Markdown live preview - https://markdownlivepreview.com/ 
   -This project used markdwon previewer to check the rendering of the readme.md file content.
  
-## Reference
--As a complete beginner to coding I need to read, watch and listen to a wealth of additional resources.
 
-These included
--1.Get coding, published by Walker, supported by Young rewired state.
--2.Learn CSS in one day and learn it well by Jamie Chan
--3. The smart way to learn html and CSS by Mark Myers
--4. Audiobook Programming for beginners : 6 books in one including CSS HTML and Javascript
--5. I used w3schools extensively. Quizzes, exercises and lessons.
--6. Tutors and Mentors at CI. repeated coursework, quizzes a number of times.
--7. I watched numerous tutorials on YouTube. 
--8. Slack and Stack community support.
  
 ## Testing
 HTML and CSS validators were used througout development. 
@@ -373,22 +357,22 @@ Desktop (unbranded Windows 7 OS)
 with different monitors 21, 27 and 43inches.
 
 ## Version control
-I began the project with the focus being the band Herman and the Hermits. 
-I then decided to develop my project outside the band brief, I discussed ideas with my mentor to ensure the scope 
-would be similar to that of the example band brief. 
-As my project outside the brief developed I was struggling to develop the asset and social media contact alongside 
-development.
+I began the project with the focus being my own project outside the brief.  
+As my project outside the brief developed, the lack of assets and social media contact became a barrier to development.
 I then decided I would concentrate on the coding skills improvement rather than being distracted trying to make original content.
+Early work links -
+
+[Initial work](https://github.com/samathaluca/milestone1.git) (2 Commits)
+
+[Early work](https://github.com/samathaluca/project2.git)   (3 Commits)
+
 Research showed an abundance of readily available assets and social media presence for **_THE WHO_**. 
 I set out and wrote wireframes for a 5 page site . 
 As I experimented with the responsive mobile first, approach I considered that a one page site could feature all the essential elements.
 I was undecided when I began developing the one page site so left the original workspace in tact in case I wanted to return to it. 
 For this reason early development is in a number of git repositories.
- 
-Early work -
-https://github.com/samathaluca/milestone1.git (5 Commits)
-https://github.com/samathaluca/project2.git   (3 Commits)
-https://github.com/samathaluca/who.git    (2 Commits)
+
+[_The Who_5 page project version control](https://github.com/samathaluca/who.git) (5 Commits)
  
 Initially I  did not grasp how important evidence of version control was but have concentrated on this since grasping how imperative a part of developement this is.
 The finished project git commits were numerically names at first 
@@ -399,9 +383,10 @@ I also only realised how important the commit message was recently.
 Please can the number of early commits be considered. Also please consider that the error made in the lack of specificity applied to the git  commit messages 
 ( plus error duplicate commit number 6/8) in usable workplace be considered part of the learning process which I will now ensure 
 is rectified in the future. 
-The original workplace was https://ide.c9.io/samgore/who-milestone. 4 Git commits.
- 
-********** The final project workspace is 
+
+[Final Project version control](https://github.com/samathaluca/ticketsales.git)
+
+
 # Find out our current directory
 pwd
  
@@ -431,60 +416,7 @@ git remote add origin https://github.com/aaroncistudent/my-first-website.git
 git push -u origin master
 
 
-####  Content
-The text for 
-the about section was copied from the Wikipedia article about the Who.
-Media
-Video was obtained from youtube.com
-The photos used in this site were obtained from google images.
-Audio clips used were provided by ......... spotify 
-Acknowledgements
-I received inspiration for this project by searching the world's 25 best band websites. 
-I like the black and white carousel and mood of the Alice in Chains site by Vandalay productions which evolved in to colour. 
-I thought that fitted with the fact that the who launched their career when black and white TV was available. 
-also ws schools
- 
-also www3 templates made me tackle from blank sheet. Lathough i did not eventually use anything from the template it got something working in my ide.
- 
-####  Credits
-No section is copied . each section is inspired by a mix ...........
- 
-
- 
-
- 
-Depolyment
- Log into GitHub.
-From the list of repositories on the screen, select AJGreaves/portrait-artist.
-From the menu items near the top of the page, select Settings.
-Scroll down to the GitHub Pages section.
-Under Source click the drop-down menu labelled None and select Master Branch
-On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
- 
-How to run this project locally
-To clone this project from GitHub:
- 
-Follow this link to the Project GitHub repository.
-Under the repository name, click "Clone or download".
-In the Clone with HTTPs section, copy the clone URL for the repository.
-In your local IDE open Git Bash.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-git clone https://github.com/USERNAME/REPOSITORY
-Press Enter. Your local clone will be created.
-Further reading and troubleshooting on cloning a repository from GitHub here.
- 
-
- 
-
-
-
-
-
-
-Deployment
+#### Deployment
 This project was developed using the Cloud9 IDE, committed to git and pushed to GitHub using the built in function within cloud9.
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
@@ -512,6 +444,47 @@ Press Enter. Your local clone will be created.
 Further reading and troubleshooting on cloning a repository from GitHub here.
 
 
+####  Content
+Video was obtained from youtube.com
+The photos used in this site were obtained from google images.
+Shutterstock background image was used in buy ticket section. It was not purchased and so has watermarks but please consider that i would buy it is necessary.
+Audio clips used were provided by ......... spotify 
+
+## Reference
+-As a complete beginner to coding I need to read, watch and listen to a wealth of additional resources.
+
+These included
+-1.Get coding, published by Walker, supported by Young rewired state.
+-2.Learn CSS in one day and learn it well by Jamie Chan
+-3. The smart way to learn html and CSS by Mark Myers
+-4. Audiobook Programming for beginners : 6 books in one including CSS HTML and Javascript
+-5. I used w3schools extensively. Quizzes, exercises and lessons.
+-6. Tutors and Mentors at CI. repeated coursework, quizzes a number of times.
+-7. I watched numerous tutorials on YouTube. 
+-8. Slack and Stack community support.
+
+####  Credits
+
+I received inspiration for this project by searching the world's 25 best band websites. 
+I like the black and white carousel and mood of the Alice in Chains site by Vandalay productions which evolved in to colour. 
+
+[Alice in Chains website](http://aliceinchains.com/)
+
+I thought that fitted with the fact that the _Who_ launched their career when black and white TV was available. 
+I read source code to help me understand 
+
+Initial learning and structure was based upon a Bootstrap3 w3schools.com templates.
+When the CI course work material changed to Bootstrap4, the template did not work but when this happened, 
+I felt more confident and my understanding of Bootstrap was proficient enough to be able to develop a site without a template.
+I was able by this time to use CSS and change the look of the components and sections.
+Other student's work and projects, particularly those referenced on slack gave me ideas and understadning of how to tackle each section.
+[Seedling template](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp)
+
+
+####  Acknowledgements
+Slack Community Particularly Anna Greaves who convinced me how worthwhile it was to become involved.
+CI tutors 
+My Mentor Antonija Simic who reassured me when I made embarressing mistakes by telling me it was inevitable because I was learning. 
 
 
 
