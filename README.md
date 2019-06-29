@@ -447,14 +447,14 @@ Audio clips used were CD mp3 files.
 -As a complete beginner to coding I need to read, watch and listen to a wealth of additional resources.
 
 These included
--1.Get coding, published by Walker, supported by Young rewired state.
--2.Learn CSS in one day and learn it well by Jamie Chan
--3. The smart way to learn html and CSS by Mark Myers
--4. Audiobook Programming for beginners : 6 books in one including CSS HTML and Javascript
--5. I used w3schools extensively. Quizzes, exercises and lessons.
--6. Tutors and Mentors at CI. repeated coursework, quizzes a number of times.
--7. I watched numerous tutorials on YouTube. 
--8. Slack and Stack community support.
+-Get coding, published by Walker, supported by Young rewired state.
+-Learn CSS in one day and learn it well by Jamie Chan
+-The smart way to learn html and CSS by Mark Myers
+-Audiobook Programming for beginners : 6 books in one including CSS HTML and Javascript
+-I used w3schools extensively. Quizzes, exercises and lessons.
+-Tutors and Mentors at CI. repeated coursework, quizzes a number of times.
+-I watched numerous tutorials on YouTube. 
+-Slack and Stack community support.
 
 ####  Credits
 
@@ -470,7 +470,7 @@ Initial learning and structure was based upon a Bootstrap3 w3schools.com templat
 When the CI course work material changed to Bootstrap4, the template did not work anymore. 
 I felt more confident by this time and my understanding of Bootstrap was proficient enough to be able to develop a site without a template.
 I was able by this time to use CSS and change the look of the components and sections.
-Other student's work and projects, particularly those referenced on slack gave me ideas and understadning of how to tackle each section.
+Other student's work and projects, particularly those referenced on slack gave me ideas and understanding of how to tackle each section.
 [Seedling template](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp)
 
 
