@@ -148,8 +148,8 @@ As the design evolved and with guidance from my mentor, I opted for a one page d
 Please find the latest pen and paper design in mockup file.
 Wireframe mockups:
 
-![Prospective wireframe](images/wireframes/wireframe1.jpg)
-![Relevant first wireframe](images/wireframes/wireframe2.jpg)
+[Prospective wireframe](images/wireframes/wireframe1.jpg)
+[Relevant first wireframe](images/wireframes/wireframe2.jpg)
 
 ![XL responsive wireframe page 1](images/wireframes/wireframe3.jpg)
 ![XL and responsive wireframe page 2](images/wireframes/wireframe4.jpg)
@@ -251,15 +251,10 @@ Social media link via font awesome icons.
  
  
 ### Future Features
-extra audio clips 
+Possible extra audio Mp3 files and  extra video content.
+Tickets left notification.  SOLD OUT venue or selling out information. 
  
- call to action and sales - tickets left
- 
-Features Left to Implement
-extra audio clips 
-modal thanking for ticket enquiry and purchase. 
- 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+### Features Left to Implement.
 A message to thank the customer unintrusively for
 a) clicking to buy concert tickets
 b) filling in the contact form details . 
@@ -284,7 +279,6 @@ The current contact form encourages brief messages with the goal of increasing t
     - https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
         - This was used to have the hover styles run smoothly
 -Gimp- This was used for resizing, cropping, fading and changing images to fit the site. 
-
 -Jquery, JS and poppers
    -https://code.jquery.com/jquery-3.3.1.slim.min.js">
       -This added functionality to the site e.g. naivation toggle.
@@ -308,9 +302,6 @@ HTML and CSS validators were used througout development.
 https://jigsaw.w3.org/css-validator/
 
 [Markdown test](https://markdownlivepreview.com/)
-
-
-
 
  Each time I was happy with the functionality of a section I checked the code .
  I tested repeatedly using google developer tools and in different browsers. 
@@ -338,16 +329,15 @@ ALL LINKS TESTED to external website links, videos and social media repeatedly t
 Final tests were made using
 AutoPrefixer
 This project used AutoPrefixer to make sure the css code is valid for all browsers.
-I also laod the site in each of the following browsers.
+I also loaded the site in each of the following browsers.
 Google Chrome
-Google
 Bing
 Ask Jeeves
 Safari
 Internet Explorer
 Mozilla Firefox
 
-Final Developer Tools texts completed for all screen sizes.
+Final Google Developer Tools texts completed for all screen sizes.
 
 Devices used for testing included
 Mobile phones
@@ -410,23 +400,24 @@ ls
  
 ###### Create a new local git repository
 git init
+
 ###### Check for the existence of the `.git` directory
 ls -a
- 
+
 ###### Add the `css` and `images` directories and each of the `.html` files to
+
 ###### the git staging area
 git add index.html style.css
 
-
 ###### Check the git status to double-check that they've been added
 git status
- 
+
 ###### Do our first commit
-git commit -m "first commit"
- 
+git commit -a -m "first commit"
+
 ###### Add a remote
 git remote add origin https://github.com/samathaluca/ticketsales.git
- 
+
 ###### Push from our local repository to the remote
 git push (-u) origin master
 
@@ -446,16 +437,11 @@ These changes were reflected in the deployed sites almost immediately.
 
 The URL I was given was [deployed project](https://samathaluca.github.io/ticketsales/)
 
-
-
-
-
-
 ####  Content
 Video was obtained from youtube.com
 The photos used in this site were obtained from google images.
 Shutterstock background image was used in buy ticket section. It was not purchased and so has watermarks but please consider that i would buy it is necessary.
-Audio clips used were provided by ......... spotify 
+Audio clips used were CD mp3 files. 
 
 #### Reference
 -As a complete beginner to coding I need to read, watch and listen to a wealth of additional resources.
@@ -481,8 +467,8 @@ I thought that fitted with the fact that the _Who_ launched their career when bl
 I read source code to help me understand 
 
 Initial learning and structure was based upon a Bootstrap3 w3schools.com templates.
-When the CI course work material changed to Bootstrap4, the template did not work but when this happened, 
-I felt more confident and my understanding of Bootstrap was proficient enough to be able to develop a site without a template.
+When the CI course work material changed to Bootstrap4, the template did not work anymore. 
+I felt more confident by this time and my understanding of Bootstrap was proficient enough to be able to develop a site without a template.
 I was able by this time to use CSS and change the look of the components and sections.
 Other student's work and projects, particularly those referenced on slack gave me ideas and understadning of how to tackle each section.
 [Seedling template](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp)
@@ -494,25 +480,7 @@ CI tutors Especially Neil for his rapid and problem solving answers.
 My Mentor Antonija Simic who reassured me when I made embarressing mistakes by telling me it was inevitable because I was learning. 
 
 
-
-
->block quote
- 
- 
-
-To clone this project from GitHub:
-
-Follow this link to the Project GitHub repository.
-Under the repository name, click "Clone or download".
-In the Clone with HTTPs section, copy the clone URL for the repository.
-In your local IDE open Git Bash.
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-git clone https://github.com/USERNAME/REPOSITORY
-Press Enter. Your local clone will be created.
-Further reading and troubleshooting on cloning a repository from GitHub here.
-
- 
+Before submission I have filled in the pre-submission check list plus I have checked each of the following aspects of the project. 
 Project Purpose.
 UX design.
 Suitability for purpose.
