@@ -54,8 +54,9 @@ and stop the barrier of currency exchange concerns.
 other events or sellout dates and potentially lose sales.
 or 
   * b) by linking to a few examples of the venues, but still ensuring that the user will link directly on to the relevant page to keep focus on The Who.
+  * c) added most recently was an option to buy tickets from the band's commercial website 
 * Links to social media have been added but positioned after the opportunity to buy tickets but included to show profile and add interest.
-* The site needs to go live before the start of the tour to ensure all venues are still available.
+* The site needed to be deployed before the start of the tour to ensure all venues are still available.
 * Gathering details via the contact page will help promote future tours and be an indication of how the site has captured the interest of the users.
 * I researched the 25 most popular band websites and presented the user with all the most popular features to confirm with current UI expectations. 
 
@@ -117,7 +118,6 @@ A well-organized website is intuitive and easy to use. The one page site was set
 It provides all users with a simple flow between sections, naturally guidingh a user to the information and on-site actions of promoting the band's music and concerts. 
 The structure chosen was to present what users will expect to see on any band website. Research was done by searching _best band websites_. 
 
- 
 The social media at the end will mean that users are not distracted and lead away immediately. 
  
  **_The Skeleton plane:_**.
@@ -143,20 +143,16 @@ Fonts used are easy to read, up to date choices.
 The surface layout is in line with what is currently comfortable, easily absorbed and familiar to users.
  
 ### Wireframes
-At the outset, I intended to complete a design with a 5 page payout. Please find the paper and pen mockup with crossing outs as amendments when I changed my mind while coding the multiple page site.
 As the design evolved and with guidance from my mentor, I opted for a one page design.
-Please find the latest pen and paper design in mockup file.
+Please find the pen and paper design in scanned jpg files.
 Wireframe mockups:
-
-[Prospective wireframe](images/wireframes/wireframe1.jpg)
-[Relevant first wireframe](images/wireframes/wireframe2.jpg)
 
 ![XL responsive wireframe page 1](images/wireframes/wireframe3.jpg)
 ![XL and responsive wireframe page 2](images/wireframes/wireframe4.jpg)
 ![mobile responsive wireframe](images/wireframes/wireframe5.jpg)
 
 ( I started balsamiq design but found my ideas were not free flowing so I reverted back to paper and pen designs which help clarify thoughts more for me.)
- 
+(wireframes 1 and 2 were abandoned as they featured the original multi page site- they can be found in git repository assets- images/wireframes/wireframe1.jpg & images/wireframes/wireframe2.jpg but are redundant)
 ## Features
  
 ### Existing Features
@@ -216,12 +212,12 @@ With the section background this looked aesthetic and the functionality remained
 * 6 different Ticket buying opportunities
     - buy tickets next to the tour dates of the band so that people can go straight from the website and not look it up separately
     - Full tour details and option to buy tickets are offered on the band's own website. 
-    - for the venues rather than independent ticket buying sites, I have ensured the link goes directly to the relevant page so that the user does not get frustrated or distracted trying to navigate the site. Therefore minimising the efforts and number of clicks to then purchase a ticket.
-
+    - for the option to buy directly from the venues, I have ensured the link goes directly to the relevant page so that the user does not get frustrated or distracted trying to navigate the site. Therefore minimising the efforts and number of clicks to then purchase a ticket.
+    - To buy from major ticket purchasing sites I have given a choice of sites known well in each of the countries the band is touring in (Canada,USA and UK)
 The ticket buying links are standard blue. This was not changed because it matches the red, blue and white flag and tour themes plus the who's own  bullseye logo. 
 
 #### Gallery 
-Gallery allows users to view photos of the band members and their characters. There is a collage of old and new photos. 
+Gallery allows users to view photos of the band members and their characters. There is a wallpaper style collage of old and new photos. 
 Monochrome and colour pictures have been blended for interesting contrast.  
 -The background image of the crowd at woodstock attempts to convey the influence and popularity of the band in the sixties. Woodstock was a historic music event which rippled through the world, 
 possibly giving rise to the popularity of festivals today. 
@@ -234,8 +230,6 @@ Other layouts were not flattering for the aging band members.
 I have eventually favoured the collage style, without spacing, as I think it appeals to the senses and gives a raw, authentic feel to the page fitting with the band's reputation for wild, love of dissension. 
 I have not changed things just to prove I can do it for my project if I believe it is detrimental example to the surface plane of the project.
 I can easily change image size and gallery style. I would monitor this with google analytics and quickly change the features if, once live, the site did not sell any tickets. 
-
-
 
 #### Contact section 
 -Aim is for users to complete it if they are interested in receiving future tour information and fan club information.
@@ -269,7 +263,7 @@ The current contact form encourages brief messages with the goal of increasing t
 -HTML - This was used to create the markupl
 -CSS - This was used to style the elements of the HTML code.
 -Bootstrap - https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css   
-        - This was used to help style the website and as well as the grid layout.
+           - This was used to help style the website and as well as the grid layout.
 -Font Awesome
    -https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900|Audiowide|Ubuntu&display=swap" rel="stylesheet">
     - This was used to create a choice of fonts for the website
@@ -339,23 +333,14 @@ Mozilla Firefox
 
 Final Google Developer Tools texts completed for all screen sizes.
 
-Devices used for testing included
-Mobile phones
-Samsung S6
-Iphone 6
-Iphone 7S
-Sony Xseries
+#### Devices used for testing included
+Mobile phones- Samsung S9, Iphone 6, Iphone 7S, Sony Xseries
 
-Tablets used
-Ipad 
+Tablets tested - Ipad 
 
-Laptop
-Macair
-Hp
-Sony Vaio
+Laptop tested - MacBook pro, Sony Vaio
 
-Desktop (unbranded Windows 7 OS)
-with different monitors 21, 27 and 43inches.
+Desktop (unbranded Windows 7 OS) with different monitors 21, 27 and 43inches.
 
 ## Version control
 I began the project with the focus being my own project outside the brief.  
@@ -439,7 +424,7 @@ The URL I was given was [deployed project](https://samathaluca.github.io/tickets
 
 ####  Content
 Video was obtained from youtube.com
-The photos used in this site were obtained from google images.
+The photos used in this site were obtained from google images and [the who official website](https://www.thewho.com)
 Shutterstock background image was used in buy ticket section. It was not purchased and so has watermarks but please consider that i would buy it is necessary.
 Audio clips used were CD mp3 files. 
 
