@@ -149,10 +149,11 @@ Please find the latest pen and paper design in mockup file.
 Wireframe mockups:
 
 ![Prospective wireframe](images/wireframes/wireframe1.jpg)
+![Relevant first wireframe](images/wireframes/wireframe2.jpg)
 
-[Relevant first wireframe](images/wireframes/wireframe2.jpg)
-
-![Neat and responsive wireframe](images/wireframes/wireframe3.jpg)
+![XL responsive wireframe page 1](images/wireframes/wireframe3.jpg)
+![XL and responsive wireframe page 2](images/wireframes/wireframe4.jpg)
+![mobile responsive wireframe](images/wireframes/wireframe5.jpg)
 
 ( I started balsamiq design but found my ideas were not free flowing so I reverted back to paper and pen designs which help clarify thoughts more for me.)
  
