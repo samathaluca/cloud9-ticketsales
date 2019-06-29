@@ -260,28 +260,39 @@ The current contact form encourages brief messages with the goal of increasing t
 
 ## Tech Used
 -Cloud9 - IDE used throughout development.
+
 -HTML - This was used to create the markupl
+
 -CSS - This was used to style the elements of the HTML code.
+
 -Bootstrap - https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css   
            - This was used to help style the website and as well as the grid layout.
+           
 -Font Awesome
    -https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900|Audiowide|Ubuntu&display=swap" rel="stylesheet">
     - This was used to create a choice of fonts for the website
    -https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
     - This was used for icons e.g. social media and flags 
+    
 -Hover        
     - https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
         - This was used to have the hover styles run smoothly
+        
 -Gimp- This was used for resizing, cropping, fading and changing images to fit the site. 
+
 -Jquery, JS and poppers
+
    -https://code.jquery.com/jquery-3.3.1.slim.min.js">
       -This added functionality to the site e.g. naivation toggle.
    -https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js
    -https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      -supports logic for use of the bootstrap components within the site.     
+      -supports logic for use of the bootstrap components within the site.   
+      
 -Git - used for version control and deployment.
+
 -AutoPrefixer - https://autoprefixer.github.io/
-  -This project used AutoPrefixer to make sure the css code is valid for all browsers.
+    -This project used AutoPrefixer to make sure the css code is valid for all browsers.
+
 -Markdown live preview - https://markdownlivepreview.com/ 
   -This project used markdwon previewer to check the rendering of the readme.md file content.
  
