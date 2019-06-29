@@ -1,3 +1,7 @@
+/*scroll-behaviour not recog by all browsers*/
+html {
+scroll-behavior: smooth;
+}
 .body-font {
 font-family:'Lato', sans-serif;
 color: #000000; 
@@ -41,18 +45,18 @@ h2 { font-family: 'Audiowide', cursive;
     margin-bottom: 0px;
     color: #080808;
 }
-/*About area */
+/*About area 
 .about-headings {
-    margin-top: 50px;
-}
+    margin-top: 25px;}*/
+
 .about-iframe {
     padding-right: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .item-text{
     padding-left: 15px;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .justify-text {text-align:justify;
  font-size: 15px;
