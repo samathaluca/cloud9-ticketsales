@@ -1,4 +1,4 @@
-/*scroll-behaviour not recog by all browsers*/
+/*scroll-behaviour not recognised by all browsers*/
 html {
 scroll-behavior: smooth;
 }
@@ -7,8 +7,8 @@ font-family:'Lato', sans-serif;
 color: #000000; 
 }
 h2 { font-family: 'Audiowide', cursive;
-    margin-top: 50px}
-    
+    margin-top: 50px
+}
 .section-padding  {
     padding:0px;
 }
@@ -45,10 +45,8 @@ h2 { font-family: 'Audiowide', cursive;
     margin-bottom: 0px;
     color: #080808;
 }
-/*About area 
-.about-headings {
-    margin-top: 25px;}*/
 
+/* about area*/
 .about-iframe {
     padding-right: 15px;
     margin-top: 25px;
@@ -110,9 +108,7 @@ h2 { font-family: 'Audiowide', cursive;
 .famoustracks {
     margin-top: 0px;
     text-align: center;
-    
 }
-
 
 /*BUY TICKETS AREA*/
 .buytickets-area{
@@ -204,6 +200,7 @@ footer ul li a {
     text-align: center
 }
 
+/* media queries to improve the appearance on different screen sizes. Also to minimise risk of overlay and white space*/
 
 @media only screen and (max-width: 600px) {
   .nav-area {
