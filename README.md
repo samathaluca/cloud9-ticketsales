@@ -41,8 +41,8 @@ most relevant may not have cutting edge technology and hardware to view the site
 
 
 **The business goals** of this website are:
-* To showcase the past success.
-* To show the credibilty of the band in 2019 and evidence that they are still compelling today.
+* To showcase past success.
+* To show the credibility of the band in 2019 and evidence that they are still compelling today.
 * To promote the band, in particular their concert ticket sales. As bands now make less money from record sales than ever
 before , their concert ticket sales are crucial to them. 
 * To make it intuitively easy to buy tickets on impulse as simply as possible. 
@@ -62,7 +62,7 @@ or
 
 **The customer goals**
 The users will be fans of the who or potential fans.
-* As a potential fan I want to be reassured that the band is still relevant today. I need to know that the band is not jaded, tired and lacklustre. 
+* As a potential fan, I want to be reassured that the band is still relevant today. I need to know that the band is not jaded, tired and lacklustre. 
 * The first sign I would look for would be outdated information. I will be looking for recent information.
 * As an older fan, I would like to see pictures to reminisce about the youthful thrill of the times and enjoy memories but if I have older, 
 slower hardware and internet speed, immediacy would be important.
@@ -73,7 +73,7 @@ achieve a goal (feeling good or enjoy an event).
 * As a user I will want to easily navigate the site, to find what I need efficiently with haste when I am short on time.
 * As a user I may be searching for information and images which are of interest to me. I would like to see the past and present 
 relevance of the band.
-* As a user when looking at images I will subconsiously want to listen to famous tracks. 
+* As a user when looking at images I will subconsciously want to listen to famous tracks. 
 The audio mp3 audio files in the body of the site will be important for me to stay on the site.
 * As a regular concert attender and live music lover, I want to buy my tickets fast from reliable sellers via an intuitive and visually comforting ordering process.
 * Otherwise as an infrequent concert attender , I want to be persuaded that my money will be well spent and that I am not risking disappointment.
@@ -131,7 +131,7 @@ The skeleton will be a one page site with different sections . The sections will
  
  I started development of a 5 page site but then decided that there would be limited advantage to a multiple page design with such a tight focus and relatively 
  amount of content. 
- After discussing my rpoject with my mentor I decdied that one page captured all the main content well in different sections.
+ After discussing my project with my mentor I decided that one page captured all the main content well in different sections.
 
  **_The Surface plane:_**.
 
@@ -191,7 +191,7 @@ The carousel is a bootstrap component.
 Information section. 
 Iframe containing full colour video of complete 2018 concert is set under the black and white images. 
 Alongside is information text explaining the history and containing quotes from bandmembers and song lyrics which show what _The Who_ is about.
-An auto start for the video was considered but research revealed that is can be intrusive and so has not proved favourable. 
+An auto start for the video was considered but research revealed that is can be intrusive and so has not proved favorable. 
 An unexpected start to an audio or video clip can be annoying, especially when users could be searching at work or in school or in company. 
 Attention was given to the quality of the video. The ending is a bit random with Indian music added but the choice of Indian music is gentle and pleasant and not an unpleasant finish.
 High quality video should give fans confidence that the concert are still a positive experience without any risk of disappointment. The band members are older and may not look as cool but their voices are powerful.
@@ -249,12 +249,12 @@ Possible extra audio Mp3 files and  extra video content.
 Tickets left notification.  SOLD OUT venue or selling out information. 
  
 ### Features Left to Implement.
-A message to thank the customer unintrusively for
+A message to thank the customer unobtrusively for
 a) clicking to buy concert tickets
 b) filling in the contact form details . 
 
 More understanding of the latest GDPR legislation will be considered for future contact form development. 
-If too mnay false enquiries are made CAPTCHA would be set up.
+If too many false enquiries are made reCAPTCHA would be set up.
 The current contact form encourages brief messages with the goal of increasing the number of users prepared to make the effort of completing it. 
 
 
@@ -298,12 +298,12 @@ The current contact form encourages brief messages with the goal of increasing t
     -This project used AutoPrefixer to make sure the css code is valid for all browsers.
 
 -Markdown live preview - https://markdownlivepreview.com/ 
-    -This project used markdwon previewer to check the rendering of the readme.md file content.
+    -This project used markdown previewer to check the rendering of the readme.md file content.
  
 
  
 ## Testing
-HTML and CSS validators were used througout development. 
+HTML and CSS validators were used throughout development. 
 
 [HTML Validator](https://validator.w3.org/.)
 
@@ -375,7 +375,7 @@ For this reason early development is in a number of git repositories.
 
 [_The Who_5 page project version control](https://github.com/samathaluca/who.git) (5 Commits)
  
-Initially I  did not grasp how important evidence of version control was but have concentrated on this since grasping how imperative a part of developement this is.
+Initially I  did not grasp how important evidence of version control was but have concentrated on this since grasping how imperative a part of development this is.
 The finished project git commits were numerically names at first 
  -a) because I had not fully understood the number of commits I would be making 
  -b) there was so much development work to be done and code was so rudimentary at first that is was only going to be a referenced unless all the work was lost. 
@@ -477,14 +477,14 @@ Other student's work and projects, particularly those referenced on slack gave m
 ####  Acknowledgements
 Slack Community Particularly Anna Greaves who convinced me how worthwhile it was to become involved.
 CI tutors Especially Neil for his rapid and problem solving answers.
-My Mentor Antonija Simic who reassured me when I made embarressing mistakes by telling me it was inevitable because I was learning. 
+My Mentor Antonija Simic who reassured me when I made embarrassing mistakes by telling me it was inevitable because I was learning. 
 
 
-Before submission I have filled in the pre-submission check list plus I have checked each of the following aspects of the project. 
-Project Purpose.
-UX design.
-Suitability for purpose.
-Navigation.
+Before submission I have filled in the pre-submission check list plus I have checked each of the following aspects of the project- 
+*Project Purpose.
+*UX design.
+*Suitability for purpose.
+*Navigation.
 Ease of Use.
 Information Architecture
 Responsive Design
