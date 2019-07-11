@@ -71,7 +71,7 @@ h2 {
   padding-bottom: 100px;
 }
 .mp3-area {
-  background-image: url(images/crowdfaded.jpg);
+  background-image: url("images/crowdfaded.jpg");
   background-attachment: fixed;
   /*  -webkit-background-size: cover; */
   background-size: cover;
@@ -123,7 +123,7 @@ h5 {
   font-weight: bold;
 }
 .single-country {
-  background-image: url(images/flagscrop.jpg);
+  background-image: url("images/flagscrop.jpg");
   background-attachment: fixed;
   /*  -webkit-background-size: contain; */
   background-size: contain;
@@ -138,7 +138,7 @@ h5 {
 
 /* Gallery Area*/
 .bandmembers-area {
-  background-image: url(images/bandmembers/woodstockfade.jpg);
+  background-image: url("images/bandmembers/woodstockfade.jpg");
   background-attachment: fixed;
   /* -webkit-background-size: cover; */
   background-size: cover;
@@ -158,7 +158,7 @@ h5 {
 /*contact area*/
 .contact-area {
   position: relative;
-  background-image: url(images/faded.jpg);
+  background-image: url("images/faded.jpg");
   /* -webkit-background-size: cover; */
   background-size: cover;
   background-position: center center;
@@ -207,7 +207,7 @@ footer ul li a {
     height: 666px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
   .about-iframe {
     padding-right: 0px;
   }

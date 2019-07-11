@@ -480,23 +480,23 @@ CI tutors Especially Neil for his rapid and problem solving answers.
 My Mentor Antonija Simic who reassured me when I made embarrassing mistakes by telling me it was inevitable because I was learning. 
 
 
-Before submission I have filled in the pre-submission check list plus I have checked each of the following aspects of the project- 
-*Project Purpose.
-*UX design.
-*Suitability for purpose.
-*Navigation.
-Ease of Use.
-Information Architecture
-Responsive Design
-Image Presentation.
-Colour scheme and typography.
-Appropriate use of HTML.
-Appropriate use of CSS.
-Directory Structure and File Naming.
-Version Control.
-Testing implementation.
-Testing write-up.
-Readme file.
-Comments.
-Deployment implementation.
-Deployment write-up
+Before submission I have filled in the pre-submission check list plus I have checked each of the following aspects of the project.
+-Project Purpose.
+-UX design.
+-Suitability for purpose.
+-Navigation.
+-Ease of Use.
+-Information Architecture
+-Responsive Design
+-Image Presentation.
+-Colour scheme and typography.
+-Appropriate use of HTML.
+-Appropriate use of CSS.
+-Directory Structure and File Naming.
+-Version Control.
+-Testing implementation.
+-Testing write-up.
+-Readme file.
+-Comments.
+-Deployment implementation.
+-Deployment write-up
