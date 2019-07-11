@@ -444,17 +444,17 @@ Shutterstock background image was used in buy ticket section. It was not purchas
 Audio clips used were CD mp3 files. 
 
 #### Reference
--As a complete beginner to coding I need to read, watch and listen to a wealth of additional resources.
+As a complete beginner to coding I need to read, watch and listen to a wealth of additional resources.
 
 These included
--Get coding, published by Walker, supported by Young rewired state.
--Learn CSS in one day and learn it well by Jamie Chan
--The smart way to learn html and CSS by Mark Myers
--Audiobook Programming for beginners : 6 books in one including CSS HTML and Javascript
--I used w3schools extensively. Quizzes, exercises and lessons.
--Tutors and Mentors at CI. repeated coursework, quizzes a number of times.
--I watched numerous tutorials on YouTube. 
--Slack and Stack community support.
+* Get coding, published by Walker, supported by Young rewired state.
+* Learn CSS in one day and learn it well by Jamie Chan
+* The smart way to learn html and CSS by Mark Myers
+* Audiobook Programming for beginners : 6 books in one including CSS HTML and Javascript
+* I used w3schools extensively. Quizzes, exercises and lessons.
+* Tutors and Mentors at CI. repeated coursework, quizzes a number of times.
+* I watched numerous tutorials on YouTube. 
+* Slack and Stack community support.
 
 ####  Credits
 
@@ -481,22 +481,22 @@ My Mentor Antonija Simic who reassured me when I made embarrassing mistakes by t
 
 
 Before submission I have filled in the pre-submission check list plus I have checked each of the following aspects of the project.
--Project Purpose.
--UX design.
--Suitability for purpose.
--Navigation.
--Ease of Use.
--Information Architecture
--Responsive Design
--Image Presentation.
--Colour scheme and typography.
--Appropriate use of HTML.
--Appropriate use of CSS.
--Directory Structure and File Naming.
--Version Control.
--Testing implementation.
--Testing write-up.
--Readme file.
--Comments.
--Deployment implementation.
--Deployment write-up
+* Project Purpose.
+* UX design.
+* Suitability for purpose.
+* Navigation.
+* Ease of Use.
+* Information Architecture
+* Responsive Design
+* Image Presentation.
+* Colour scheme and typography.
+* Appropriate use of HTML.
+* Appropriate use of CSS.
+* Directory Structure and File Naming.
+* Version Control.
+* Testing implementation.
+* Testing write-up.
+* Readme file.
+* Comments.
+* Deployment implementation.
+* Deployment write-up
